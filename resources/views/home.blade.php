@@ -32,6 +32,8 @@
     <link href="{{asset('icon/apple-touch-icon-32-precomposed.png')}}" rel="apple-touch-icon-precomposed">
     <link href="{{asset('icon/favicon.png')}}" rel="shortcut icon">
 
+    <link rel="stylesheet" type="text/css" href="{{url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
+
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -50,16 +52,16 @@
                         <div class="flat-wrapper">
 
                             <div class="social-links">
-                                <a href="home-header-transparent.html#">
+                                <a href="{{route('index')}}">
                                     <i class="fa fa-twitter"></i>
                                 </a>
-                                <a href="home-header-transparent.html#">
+                                <a href="{{route('index')}}">
                                     <i class="fa fa-facebook-official"></i>
                                 </a>
-                                <a href="home-header-transparent.html#">
+                                <a href="{{route('index')}}">
                                     <i class="fa fa-google-plus"></i>
                                 </a>
-                                <a href="home-header-transparent.html#">
+                                <a href="{{route('index')}}">
                                     <i class="fa fa-pinterest"></i>
                                 </a>
                             </div>
@@ -74,7 +76,7 @@
                         <div class="row">
                             <div class="flat-wrapper">
                                 <div id="logo" class="logo">
-                                    <a href="{{url('index.html')}}">
+                                    <a href="{{route('index')}}">
                                         <img src="{{asset('images/logo3.png')}}" alt="images">
                                     </a>
                                 </div><!-- /.logo -->
@@ -88,43 +90,43 @@
                                         <ul class="menu"> 
                                             <li class="home">
 
-                                                <a href="{{url('index.html')}}">Home</a>
+                                                <a href="{{route('index')}}">Home</a>
 
                                             </li>
 
                                             <li>
 
-                                                <a href="home-header-transparent.html#">About Us</a>
+                                                <a href="{{route('index')}}">About Us</a>
                                                 
                                             </li>
                                             
                                             <li>
 
-                                                <a href="services.html">Services</a>
+                                                <a href="{{route('index')}}">Services</a>
                                                  <ul class="submenu"> 
-                                                    <li><a href="services-detail.html">Ground transport</a></li>
-                                                    <li><a href="services-detail-v2.html">Cargo</a></li>
-                                                    <li><a href="services-detail-v3.html">Sea freight</a></li>
-                                                    <li><a href="services-detail-v4.html">Logistics solutions</a></li>
-                                                    <li><a href="services-detail-v5.html">Warehousing and storage</a></li>
-                                                    <li><a href="services-detail-v6.html">Clearing and Forwarding</a></li>
+                                                    <li><a href="{{route('index')}}">Ground transport</a></li>
+                                                    <li><a href="{{route('index')}}">Cargo</a></li>
+                                                    <li><a href="{{route('index')}}">Sea freight</a></li>
+                                                    <li><a href="{{route('index')}}">Logistics solutions</a></li>
+                                                    <li><a href="{{route('index')}}">Warehousing and storage</a></li>
+                                                    <li><a href="{{route('index')}}">Clearing and Forwarding</a></li>
                                                 </ul><!-- /.submenu -->
 
                                                 
                                             </li>
                                             <li>
 
-                                                <a href="portfolio.html">Gallery</a>
+                                                <a href="{{route('index')}}">Gallery</a>
                                                 
                                             </li>                                              
                                             <li>
 
-                                                <a href="blog.html">News</a>
+                                                <a href="{{route('index')}}">News</a>
                                                 
                                             </li>
                                             
                                            
-                                            <li><a href="http://themesflat.com/html/canava/contact.html">Contact</a></li>
+                                            <li><a href="{{route('index')}}">Contact</a></li>
                                         </ul><!-- /.menu -->                                        
                                     </nav><!-- /.mainnav -->  
                                 </div><!-- /.nav-wrap -->
@@ -142,27 +144,27 @@
                     <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/1.jpg')}}" alt="slider-image" />
                         <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">                            
-                            Standard sea freight<br>services
+                            Standard Sea Freight<br>Services
                         </div>  
                         <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">                       
                             If low costs matter for your shipment, try our sea freight<br>services.
                         </div>    
-                        <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{url('home-header-transparent.html#')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
+                        <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
-                        <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{url('home-header-transparent.html#')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
+                        <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
                     </li>
 
                     <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/2.jpg')}}" alt="slider-image" />
                         <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">                            
-                            Overland<br>transportion
+                            Overland<br>Transportion
                         </div>  
                         <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">                       
                             The road transport industry is the backbone of strong<br>economies and dynamic societies.
                         </div>    
-                        <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{url('home-header-transparent.html#')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
+                        <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
-                        <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{url('home-header-transparent.html#')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
+                        <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
                     </li>
 
                     <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
@@ -173,9 +175,9 @@
                         <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">                       
                             Have an experience of a highly efficient and speedy <br>clearing & forwarding process
                         </div>    
-                        <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{url('home-header-transparent.html#')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
+                        <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
-                        <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{url('home-header-transparent.html#')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
+                        <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
                     </li>
                 </ul>
             </div>
@@ -188,7 +190,7 @@
                     <div class="col-md-12">
                         <div class="promobox style1 style2 clearfix">
                             <h5 class="promobox-title">We are honored to be a leading and reliable partner in the field of multimodal Logistics in Kenya</h5>
-                            <a class="button black sm" href="{{url('http://themesflat.com/html/canava/contact.html')}}">Talk to us<i class="fa fa-chevron-right"></i></a>
+                            <a class="button black sm" href="{{route('index')}}">Talk to us<i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -210,13 +212,13 @@
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
-                                                <a href="{{url('#')}}">Why choose Fair Logistics ?</a>
+                                                <a href="{{route('index')}}">Why choose Fair Logistics ?</a>
                                             </h5>
                                         </div>
                                         <div class="box-content">
                                             <div class="box-desc">At Fair Logistics, we know time is of the essence. We have used our legacy Truckload service in the coastal part of Kenya to shape what our company is today.</div>
                                             <div class="box-button">
-                                                <a class="button bg-scheme3" href="{{url('about.html')}}">read more <i class="fa fa-chevron-right"></i></a>
+                                                <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -231,13 +233,13 @@
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
-                                                <a href="#">Are you optimising your warehouse space ?</a>
+                                                <a href="{{route('index')}}">Are you optimising your warehouse space ?</a>
                                             </h5>
                                         </div>
                                         <div class="box-content">
                                             <div class="box-desc">Warehousing, Storage,shipping and transportation services offered by Fair Logistics have become an integral part of our client’s requirements, As our clients continue to demand increased savings and efficiencies in their businesses.</div>
                                             <div class="box-button">
-                                                <a class="button bg-scheme3" href="{{url('about.html')}}">read more <i class="fa fa-chevron-right"></i></a>
+                                                <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -252,13 +254,13 @@
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
-                                                <a href="{{url('#')}}">The gallery of Fair Logistics Agency</a>
+                                                <a href="{{route('index')}}">The gallery of Fair Logistics Agency</a>
                                             </h5>
                                         </div>
                                         <div class="box-content">
                                             <div class="box-desc">Some images highlighting our warehouse, transport, Cargo and logistics expertise.</div>
                                             <div class="box-button">
-                                                <a class="button bg-scheme3" href="{{url('about.html')}}">read more <i class="fa fa-chevron-right"></i></a>
+                                                <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -339,7 +341,7 @@
                             <div class="flat-item item-three-column">
                                 <div class="iconbox style1">
                                     <div class="box-header">
-                                        <div class="box-icon"><i class="fa fa-plane"></i></div>
+                                        <div class="box-icon"><i class="fa fa-ship"></i></div>
                                         <h5 class="box-title">Sea freight</h5>
                                     </div>
                                     <div class="box-content">
@@ -375,7 +377,7 @@
                             <h5 class="desc">We will take care of your cargo and deliver it safe and on time.</h5>
                             <div class="group-btn">
                                 <a class="button lg" href="{{url('home-header-transparent.html#')}}">make a quote <i class="fa fa-chevron-right"></i></a>
-                                <a class="button lg outline style1" href="{{url('#')}}">Talk to us <i class="fa fa-chevron-right"></i></a>
+                                <a class="button lg outline style1" href="{{route('index')}}">Talk to us <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div><!-- /.make-quote -->
                     </div><!-- /.col-md-12 -->
@@ -390,7 +392,7 @@
                     <div class="col-md-12">
                         <div class="promobox style1 style2 clearfix">
                             <h5 class="promobox-title">Contact us now to get quote for all your global shipping and cargo need.</h5>
-                            <a class="button black sm" href="{{url('#')}}">Talk to us<i class="fa fa-chevron-right"></i></a>
+                            <a class="button black sm" href="{{route('index')}}">Talk to us<i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -413,7 +415,7 @@
                                     <article class="flat-item item-three-column blog-post">
                                         <div class="entry-wrapper">
                                             <div class="entry-cover">
-                                                <a href="{{url('#')}}">
+                                                <a href="{{route('index')}}">
                                                     <img src="{{asset('images/blog/b1.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover --> 
@@ -424,7 +426,7 @@
                                                         <span class="entry-month">Mar</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{url('#')}}">Raising productivity &amp; morale in the warehouse</a>
+                                                        <a href="{{route('index')}}">Raising productivity &amp; morale in the warehouse</a>
                                                     </h4>                                                    
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
@@ -435,11 +437,11 @@
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
-                                                    <span class="entry-author"><a href="{{url('#')}}">admin</a></span>
+                                                    <span class="entry-author"><a href="{{route('index')}}">admin</a></span>
                                                     <i class="fa fa-folder-open"></i>
-                                                    <span class="entry-categories"><a href="{{url('#')}}">Warehouse</a></span>
+                                                    <span class="entry-categories"><a href="{{route('index')}}">Warehouse</a></span>
                                                     <i class="fa fa-comment"></i>
-                                                    <span class="entry-comments-link"><a href="{{url('#')}}">Comments</a></span>
+                                                    <span class="entry-comments-link"><a href="{{route('index')}}">Comments</a></span>
                                                 </div>
                                             </div>
                                         </div><!-- /.entry-wrapper -->
@@ -448,7 +450,7 @@
                                     <article class="flat-item item-three-column blog-post">
                                         <div class="entry-wrapper">
                                             <div class="entry-cover">
-                                                <a href="blog-single.html">
+                                                <a href="{{route('index')}}">
                                                     <img src="{{asset('images/blog/b2.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover --> 
@@ -459,7 +461,7 @@
                                                         <span class="entry-month">Mar</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{url('#')}}">Seafield logistics goes into administration</a>
+                                                        <a href="{{route('index')}}">Seafield logistics goes into administration</a>
                                                     </h4>                                                    
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
@@ -470,11 +472,11 @@
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
-                                                    <span class="entry-author"><a href="{{url('#')}}">admin</a></span>
+                                                    <span class="entry-author"><a href="{{route('index')}}">admin</a></span>
                                                     <i class="fa fa-folder-open"></i>
-                                                    <span class="entry-categories"><a href="{{url('#')}}">Jobs</a></span>
+                                                    <span class="entry-categories"><a href="{{route('index')}}">Jobs</a></span>
                                                     <i class="fa fa-comment"></i>
-                                                    <span class="entry-comments-link"><a href="{{url('#')}}">Comments</a></span>
+                                                    <span class="entry-comments-link"><a href="{{route('index')}}">Comments</a></span>
                                                 </div>
                                             </div>
                                         </div><!-- /.entry-wrapper -->
@@ -483,7 +485,7 @@
                                     <article class="flat-item item-three-column blog-post">
                                         <div class="entry-wrapper">
                                             <div class="entry-cover">
-                                                <a href="blog-single.html">
+                                                <a href="{{route('index')}}">
                                                     <img src="{{asset('images/blog/b3.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover --> 
@@ -494,7 +496,7 @@
                                                         <span class="entry-month">Mar</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{url('#')}}">Transport managers grow scarce</a>
+                                                        <a href="{{route('index')}}">Transport managers grow scarce</a>
                                                     </h4>                                                    
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
@@ -505,11 +507,11 @@
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
-                                                    <span class="entry-author"><a href="{{url('#')}}">admin</a></span>
+                                                    <span class="entry-author"><a href="{{route('index')}}">admin</a></span>
                                                     <i class="fa fa-folder-open"></i>
-                                                    <span class="entry-categories"><a href="{{url('#')}}">Transport</a></span>
+                                                    <span class="entry-categories"><a href="{{route('index')}}">Transport</a></span>
                                                     <i class="fa fa-comment"></i>
-                                                    <span class="entry-comments-link"><a href="{{url('#')}}">Comments</a></span>
+                                                    <span class="entry-comments-link"><a href="{{route('index')}}">Comments</a></span>
                                                 </div>
                                             </div>
                                         </div><!-- /.entry-wrapper -->
@@ -814,16 +816,16 @@
                                 <h3 class="widget-title">Information</h3>
                                 <div class="menu-footer-menu-container">
                                     <ul class="menu-footer-menu">
-                                        <li><a href="{{url('#')}}">Home</a></li>
-                                        <li><a href="{{url('#')}}">About us</a></li>
-                                        <li><a href="{{url('#')}}">Services</a></li>
-                                        <li><a href="{{url('#')}}">My Account</a></li>
-                                        <li><a href="{{url('#')}}">Contact us</a></li>
-                                        <li><a href="{{url('#')}}">News</a></li>
-                                        <li><a href="{{url('#')}}">Gallery</a></li>
-                                        <li><a href="{{url('#')}}">Careers</a></li>
-                                        <li><a href="{{url('#')}}">FAQ</a></li>
-                                        <li><a href="{{url('#')}}">Partners</a></li>
+                                        <li><a href="{{route('index')}}">Home</a></li>
+                                        <li><a href="{{route('index')}}">About us</a></li>
+                                        <li><a href="{{route('index')}}">Services</a></li>
+                                        <li><a href="{{route('index')}}">My Account</a></li>
+                                        <li><a href="{{route('index')}}">Contact us</a></li>
+                                        <li><a href="{{route('index')}}">News</a></li>
+                                        <li><a href="{{route('index')}}">Gallery</a></li>
+                                        <li><a href="{{route('index')}}">Careers</a></li>
+                                        <li><a href="{{route('index')}}">FAQ</a></li>
+                                        <li><a href="{{route('index')}}">Partners</a></li>
                                   
                                     </ul>
                                 </div>
@@ -856,14 +858,14 @@
                         <div class="flat-wrapper">
                             <div class="ft-wrap clearfix">
                                 <div class="social-links">
-                                    <a href="{{url('#')}}"><i class="fa fa-twitter"></i></a>
-                                    <a href="{{url('#')}}"><i class="fa fa-facebook-official"></i></a>
-                                    <a href="{{url('#')}}"><i class="fa fa-google-plus"></i></a>
-                                    <a href="{{url('#')}}"><i class="fa fa-pinterest"></i></a>
+                                    <a href="{{route('index')}}"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{route('index')}}"><i class="fa fa-facebook-official"></i></a>
+                                    <a href="{{route('index')}}"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{route('index')}}"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <div class="copyright">
                                     <div class="copyright-content">
-                                        Copyright © 2020. <a href="{{url('#')}}">Fair Logistics Agency Limited</a>   
+                                        Copyright © 2020. <a href="{{route('index')}}">Fair Logistics Agency Limited</a>   
                                     </div>
                                 </div>
                             </div><!-- /.ft-wrap -->
