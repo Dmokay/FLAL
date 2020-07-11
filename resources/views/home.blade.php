@@ -52,8 +52,8 @@
                         <div class="flat-wrapper">
                             <img src="{{asset('images/kenya.png')}}" style="height: 15px;width: auto;">| |
                             <img src="{{asset('images/uganda.png')}}" style="height: 15px;width: auto;">| |
-                            <img src="{{asset('images/rwanda.jpg')}}" style="height: 15px;width: auto;">| |
-                            <img src="{{asset('images/tanzania.png')}}" style="height: 15px;width: auto;">| |
+                            <img src="{{asset('images/Rwanda.jpg')}}" style="height: 15px;width: auto;">| |
+                            <img src="{{asset('images/Tanzania.png')}}" style="height: 15px;width: auto;">| |
                             <img src="{{asset('images/ethopia.jpg')}}" style="height: 15px;width: auto;">
                             <div class="social-links">
                                 <a href="{{route('index')}}">
