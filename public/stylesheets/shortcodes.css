@@ -1,4 +1,4 @@
-/** 
+/**
   * Item
   * Flat divider
   * Row
@@ -87,7 +87,7 @@
     clear: both;
     display: block;
     position: relative;
-    padding: 50px 0;    
+    padding: 50px 0;
 }
 
 .overlay {
@@ -207,7 +207,7 @@
 }
 
 .button.white:hover {
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 /* Button scheme */
@@ -218,19 +218,19 @@
 }
 
 .button.black:hover {
-    background-color: #32bfc0;
+    background-color: #2E3092;
     text-shadow: none;
     color: #fff;
 }
 
 .button.bg-scheme2 {
-    background-color: #32bfc0;
+    background-color: #2E3092;
     color: #21242b;
 }
 
 .button.bg-scheme2:hover {
     background-color: #21242b;
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 .button.bg-scheme3 {
@@ -238,7 +238,7 @@
 }
 
 .button.bg-scheme3:hover {
-    background-color: #32bfc0;
+    background-color: #2E3092;
 }
 
 .button.bg-scheme3.style1:hover {
@@ -269,8 +269,8 @@
 
 .button.outline:hover {
     background: none;
-    color: #32bfc0;
-    border: 2px solid #32bfc0;
+    color: #2E3092;
+    border: 2px solid #2E3092;
 }
 
 .group-btn .button:first-child {
@@ -372,7 +372,7 @@
 }
 
 .flat-title-section span {
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 /* Title section style1 */
@@ -389,7 +389,7 @@
 .flat-title-section.style2:after {
     width: 50px;
     height: 5px;
-    background-color: #32bfc0;
+    background-color: #2E3092;
     content: "";
     position: absolute;
     left: 0;
@@ -398,7 +398,7 @@
 
 /* Title section style3 */
 .flat-title-section.style3 {
-    border-bottom: 2px solid #32bfc0;
+    border-bottom: 2px solid #2E3092;
     padding-bottom: 15px;
     margin-bottom: 30px;
 }
@@ -419,7 +419,7 @@
     width: 50px;
     height: 5px;
     content: "";
-    background-color: #32bfc0;
+    background-color: #2E3092;
 }
 
 /* Flat blog shortcode
@@ -469,7 +469,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    background-color: #32bfc0;
+    background-color: #2E3092;
     margin-top: -35px;
     margin-left: -35px;
     visibility: visible;
@@ -531,7 +531,7 @@
     filter: alpha(opacity=20);
 }
 
-.blog-shortcode .blog-post .entry-cover a:hover:after, 
+.blog-shortcode .blog-post .entry-cover a:hover:after,
 .blog-shortcode .blog-post .entry-cover a:hover:before {
     visibility: visible;
      -webkit-opacity: 1;
@@ -623,7 +623,7 @@
 }
 
 .flat-tabs ul.menu-tabs li.active a:before {
-    background-color: #32bfc0;
+    background-color: #2E3092;
     width: 100%;
     left: 0;
     bottom: 100%;
@@ -694,7 +694,7 @@
     top: 0;
     bottom: 0;
     width: 57px;
-    background-color: #32bfc0;
+    background-color: #2E3092;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -749,7 +749,7 @@
     width: 15px;
     height: 15px;
     position: absolute;
-    border: 2px solid #32bfc0;
+    border: 2px solid #2E3092;
     left: 0;
     top: 3px;
     -webkit-border-radius: 100%;
@@ -779,7 +779,7 @@
     color: #fff;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     padding: 2px 15px 0 15px;
-    background-color: #32bfc0;
+    background-color: #2E3092;
     position: relative;
 }
 
@@ -790,7 +790,7 @@
     height: 14px;
     left: -7px;
     top: 50%;
-    background-color: #32bfc0;
+    background-color: #2E3092;
     margin-top: -7px;
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
@@ -803,7 +803,7 @@
 }
 
 .history li:last-child:after {
-    background-color: #32bfc0;
+    background-color: #2E3092;
 }
 
 /* History style1 */
@@ -829,7 +829,7 @@
 }
 
 .flat-member .member-info .member-subtitle {
-    color: #32bfc0;
+    color: #2E3092;
     margin-bottom: 10px;
 }
 
@@ -1011,7 +1011,7 @@
 }
 
 .flat-accordion .flat-toggle .toggle-title.active {
-    background-color: #32bfc0;
+    background-color: #2E3092;
     color: #fff;
 }
 
@@ -1075,7 +1075,7 @@
     text-align: center;
     line-height: 32px;
     color: #fff;
-    background-color: #32bfc0;
+    background-color: #2E3092;
 }
 
 .flat-accordion.style1 .flat-toggle .toggle-title:before {
@@ -1148,7 +1148,7 @@ ul.flat-list li {
 .iconlist li i {
     width: 20px;
     font-size: 14px;
-    color: #32bfc0;
+    color: #2E3092;
     margin-right: 5px;
     vertical-align: middle;
     text-align: center;
@@ -1307,7 +1307,7 @@ ul.flat-list li {
 
 .flat-iconbox .box-readmore a {
     display: inline-block;
-    color: #32bfc0;
+    color: #2E3092;
     font-weight: bold;
     position: relative;
     text-transform: uppercase;
@@ -1347,7 +1347,7 @@ ul.flat-list li {
 }
 
 .flat-portfolio ul.portfolio-filter li.active {
-    border-color: #32bfc0;
+    border-color: #2E3092;
 }
 
 .flat-portfolio ul.portfolio-filter li a {
@@ -1361,7 +1361,7 @@ ul.flat-list li {
 }
 
 .flat-portfolio ul.portfolio-filter li.active a {
-    background-color: #32bfc0;
+    background-color: #2E3092;
 }
 
 .flat-portfolio.portfolio-grid-alt .portfolio {
@@ -1395,14 +1395,14 @@ ul.flat-list li {
     position: relative;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .flat-figcaption, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .flat-figcaption,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-thumbnail .flat-figcaption {
     margin: 0;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a {
-    background-color: #32bfc0;
+    background-color: #2E3092;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -1421,12 +1421,12 @@ ul.flat-list li {
     filter: alpha(opacity=0);
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:hover, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:hover,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:hover {
     background-color: #ffc952;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:after, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:after,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:after {
     font-family: "fontAwesome";
     content: "\f0b2";
@@ -1438,7 +1438,7 @@ ul.flat-list li {
     font-weight: normal;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info {
     position: absolute;
     text-align: center;
@@ -1448,7 +1448,7 @@ ul.flat-list li {
     bottom: 0;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info:before, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info:before,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info:before {
     content: "";
     display: inline-block;
@@ -1456,7 +1456,7 @@ ul.flat-list li {
     vertical-align: middle;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-info-wrap, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-info-wrap,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info .portfolio-info-wrap {
     display: inline-block;
     height: auto;
@@ -1466,12 +1466,12 @@ ul.flat-list li {
     z-index: 10;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title {
     margin: 0;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a {
     display: block;
     background: none;
@@ -1494,12 +1494,12 @@ ul.flat-list li {
     visibility: hidden;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a {
-    color: #32bfc0;
+    color: #2E3092;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a:hover, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a:hover,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info .portfolio-title a:hover {
     color: #fff;
 }
@@ -1531,7 +1531,7 @@ ul.flat-list li {
     visibility: visible;
 }
 
-.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-categories li a, 
+.flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-info .portfolio-categories li a,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-info .portfolio-categories li a {
     color: #fff;
     background: none;
@@ -1581,7 +1581,7 @@ ul.flat-list li {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
     filter: alpha(opacity=20);
 }
- 
+
 /* Portfolio grid */
 .flat-portfolio.portfolio-grid {
     margin-bottom: 0;
@@ -1594,7 +1594,7 @@ ul.flat-list li {
 
 .portfolio .portfolio-wrap .portfolio-thumbnail a {
     display: block;
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 .portfolio .portfolio-wrap .portfolio-thumbnail > a {
@@ -1615,7 +1615,7 @@ ul.flat-list li {
 }
 
 .flat-portfolio.portfolio-grid .portfolio-wrap .portfolio-thumbnail .project-buttons a {
-    background-color: #32bfc0;
+    background-color: #2E3092;
     position: absolute;
     right: 50%;
     bottom: 50%;
@@ -1681,7 +1681,7 @@ ul.flat-list li {
     content: "\f07c";
     font-family: "fontAwesome";
     font-size: 14px;
-    color: #32bfc0;
+    color: #2E3092;
     margin-right: 8px;
     margin-top: 1px;
 }
@@ -1691,7 +1691,7 @@ ul.flat-list li {
 }
 
 .flat-portfolio.portfolio-grid .portfolio-wrap .portfolio-info .portfolio-categories li a {
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 .flat-portfolio.portfolio-grid .portfolio-wrap .portfolio-info .portfolio-categories li a:hover {
@@ -1711,7 +1711,7 @@ ul.flat-list li {
     height: 195px;
 }
 
-#contactform input[type="text"], 
+#contactform input[type="text"],
 #contactform input[type="email"],
 #contactform select {
     margin-bottom: 10px;
@@ -1844,7 +1844,7 @@ label.error {
     position: absolute;
     left: 0;
     top: -10px;
-    background-color: #32bfc0;
+    background-color: #2E3092;
 }
 
 .imagebox .box-header .box-title a {
@@ -1981,7 +1981,7 @@ label.error {
     left: 10px;
     top: 10px;
     z-index: -1;
-    background-color: #32bfc0;
+    background-color: #2E3092;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -2203,7 +2203,7 @@ label.error {
 }
 
 .products-detail .summary .product_meta .posted_in a {
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 .products-detail .summary .product_meta .posted_in a:hover {
@@ -2285,7 +2285,7 @@ label.error {
 }
 
 .widget.widget_products ul li span.amount {
-    color: #32bfc0;
+    color: #2E3092;
 }
 
 /* Widget filter price */

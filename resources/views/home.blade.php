@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="{{url('http://www.w3.org/1999/xhtml')}}" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
 
     <!-- Colors -->
     <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/colors/color1.css')}}" id="colors">
-    
+
     <!-- Animation Style -->
     <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/animate.css')}}">
 
@@ -38,11 +38,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>                                 
-<body class="header-sticky page-loading">   
+</head>
+<body class="header-sticky page-loading">
     <div class="loading-overlay">
     </div>
-    
+
     <!-- Boxed -->
     <div class="boxed">
         <div class="site-header header-v3">
@@ -69,25 +69,25 @@
                     </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.flat-top -->
-          
-            <header id="header" class="header clearfix"> 
+
+            <header id="header" class="header clearfix">
                 <div class="header-wrap clearfix">
                     <div class="container">
                         <div class="row">
                             <div class="flat-wrapper">
-                                <div id="logo" class="logo">
+                                <div  class="logo">
                                     <a href="{{route('index')}}">
-                                        <img src="{{asset('images/logo3.png')}}" alt="images">
+                                        <img src="{{asset('images/logo3.png')}}" alt="Logo">
                                     </a>
                                 </div><!-- /.logo -->
                                 <div class="btn-menu">
                                     <span></span>
                                 </div><!-- //mobile menu button -->
-                           
+
                                 <div class="nav-wrap">
                                     <nav id="mainnav" class="mainnav">
-                                        
-                                        <ul class="menu"> 
+
+                                        <ul class="menu">
                                             <li class="home">
 
                                                 <a href="{{route('index')}}">Home</a>
@@ -97,13 +97,13 @@
                                             <li>
 
                                                 <a href="{{route('index')}}">About Us</a>
-                                                
+
                                             </li>
-                                            
+
                                             <li>
 
                                                 <a href="{{route('index')}}">Services</a>
-                                                 <ul class="submenu"> 
+                                                 <ul class="submenu">
                                                     <li><a href="{{route('index')}}">Ground transport</a></li>
                                                     <li><a href="{{route('index')}}">Cargo</a></li>
                                                     <li><a href="{{route('index')}}">Sea freight</a></li>
@@ -112,28 +112,28 @@
                                                     <li><a href="{{route('index')}}">Clearing and Forwarding</a></li>
                                                 </ul><!-- /.submenu -->
 
-                                                
+
                                             </li>
                                             <li>
 
                                                 <a href="{{route('index')}}">Gallery</a>
-                                                
-                                            </li>                                              
+
+                                            </li>
                                             <li>
 
                                                 <a href="{{route('index')}}">News</a>
-                                                
+
                                             </li>
-                                            
-                                           
+
+
                                             <li><a href="{{route('index')}}">Contact</a></li>
-                                        </ul><!-- /.menu -->                                        
-                                    </nav><!-- /.mainnav -->  
+                                        </ul><!-- /.menu -->
+                                    </nav><!-- /.mainnav -->
                                 </div><!-- /.nav-wrap -->
                             </div><!-- /.flat-wrapper -->
                         </div><!-- /.row -->
-                    </div><!-- /.container -->             
-                </div><!-- /.header-inner --> 
+                    </div><!-- /.container -->
+                </div><!-- /.header-inner -->
             </header><!-- /.header -->
         </div><!-- /.site-header -->
 
@@ -143,12 +143,12 @@
                 <ul>
                     <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/1.jpg')}}" alt="slider-image" />
-                        <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">                            
+                        <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                             Standard Sea Freight<br>Services
-                        </div>  
-                        <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">                       
+                        </div>
+                        <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
                             If low costs matter for your shipment, try our sea freight<br>services.
-                        </div>    
+                        </div>
                         <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
                         <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
@@ -156,12 +156,12 @@
 
                     <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/2.jpg')}}" alt="slider-image" />
-                        <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">                            
+                        <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                             Overland<br>Transportion
-                        </div>  
-                        <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">                       
+                        </div>
+                        <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
                             The road transport industry is the backbone of strong<br>economies and dynamic societies.
-                        </div>    
+                        </div>
                         <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
                         <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
@@ -169,12 +169,12 @@
 
                     <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/3.jpg')}}" alt="slider-image" />
-                        <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">                            
+                        <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                             Clearing and<br>Forwarding
-                        </div>  
-                        <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">                       
+                        </div>
+                        <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
                             Have an experience of a highly efficient and speedy <br>clearing & forwarding process
-                        </div>    
+                        </div>
                         <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
                         <div class="tp-caption sfr flat-button-slider" data-x="225" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Talk to us</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
@@ -291,7 +291,7 @@
                                         <h5 class="box-title">Ground transport</h5>
                                     </div>
                                     <div class="box-content">
-                                        Ground transport along with other ancillary services, help us to provide tailor made logistic solutions to our clients.                                   
+                                        Ground transport along with other ancillary services, help us to provide tailor made logistic solutions to our clients.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -303,7 +303,7 @@
                                         <h5 class="box-title">Cargo</h5>
                                     </div>
                                     <div class="box-content">
-                                        Combined rail road transport is particularly well suited to the shipping of hazardous goods since it reduces risk.                                        
+                                        Combined rail road transport is particularly well suited to the shipping of hazardous goods since it reduces risk.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -315,7 +315,7 @@
                                         <h5 class="box-title">Warehousing and storage</h5>
                                     </div>
                                     <div class="box-content">
-                                       Fair Logistics is able to offer heated or unheated warehouse solutions both for short-term and for long-term storage.                                        
+                                       Fair Logistics is able to offer heated or unheated warehouse solutions both for short-term and for long-term storage.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -333,7 +333,7 @@
                                         <h5 class="box-title">Clearing and Forwarding</h5>
                                     </div>
                                     <div class="box-content">
-                                        With our extensive network, we will find a competitive and efficient solution to your next assignment.                                        
+                                        With our extensive network, we will find a competitive and efficient solution to your next assignment.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -345,7 +345,7 @@
                                         <h5 class="box-title">Sea freight</h5>
                                     </div>
                                     <div class="box-content">
-                                        By using a combination of sea and land freight, you bring added flexibility to your supply chain.                                        
+                                        By using a combination of sea and land freight, you bring added flexibility to your supply chain.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -357,7 +357,7 @@
                                         <h5 class="box-title">Logistics solutions</h5>
                                     </div>
                                     <div class="box-content">
-                                        Smart and sustainable business requires the skills of logistics experts who are able to think ahead.                                        
+                                        Smart and sustainable business requires the skills of logistics experts who are able to think ahead.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -418,8 +418,8 @@
                                                 <a href="{{route('index')}}">
                                                     <img src="{{asset('images/blog/b1.jpg')}}" alt="images">
                                                 </a>
-                                            </div><!-- /.entry-cover --> 
-                                            <div class="entry-header">                                                
+                                            </div><!-- /.entry-cover -->
+                                            <div class="entry-header">
                                                 <div class="entry-header-content">
                                                     <h4 class="entry-time">
                                                         <span class="entry-day">25</span>
@@ -427,7 +427,7 @@
                                                     </h4>
                                                     <h4 class="entry-title">
                                                         <a href="{{route('index')}}">Raising productivity &amp; morale in the warehouse</a>
-                                                    </h4>                                                    
+                                                    </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
@@ -453,8 +453,8 @@
                                                 <a href="{{route('index')}}">
                                                     <img src="{{asset('images/blog/b2.jpg')}}" alt="images">
                                                 </a>
-                                            </div><!-- /.entry-cover --> 
-                                            <div class="entry-header">                                                
+                                            </div><!-- /.entry-cover -->
+                                            <div class="entry-header">
                                                 <div class="entry-header-content">
                                                     <h4 class="entry-time">
                                                         <span class="entry-day">25</span>
@@ -462,7 +462,7 @@
                                                     </h4>
                                                     <h4 class="entry-title">
                                                         <a href="{{route('index')}}">Seafield logistics goes into administration</a>
-                                                    </h4>                                                    
+                                                    </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
@@ -488,8 +488,8 @@
                                                 <a href="{{route('index')}}">
                                                     <img src="{{asset('images/blog/b3.jpg')}}" alt="images">
                                                 </a>
-                                            </div><!-- /.entry-cover --> 
-                                            <div class="entry-header">                                                
+                                            </div><!-- /.entry-cover -->
+                                            <div class="entry-header">
                                                 <div class="entry-header-content">
                                                     <h4 class="entry-time">
                                                         <span class="entry-day">25</span>
@@ -497,7 +497,7 @@
                                                     </h4>
                                                     <h4 class="entry-title">
                                                         <a href="{{route('index')}}">Transport managers grow scarce</a>
-                                                    </h4>                                                    
+                                                    </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
@@ -516,7 +516,7 @@
                                             </div>
                                         </div><!-- /.entry-wrapper -->
                                     </article><!-- /.blog-post -->
-                                </div><!-- /.content-inner -->                                
+                                </div><!-- /.content-inner -->
                             </div><!-- /.main-content-wrap -->
                         </div><!-- /.main-content -->
                     </div><!-- /.content-wrap  -->
@@ -538,7 +538,7 @@
                     <div class="col-md-12">
                         <div class="flat-testimonial-owl">
                             <div class="flat-testimonial">
-                                <div class="testimonial-meta">            
+                                <div class="testimonial-meta">
                                     <div class="testimonial-image">
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
@@ -555,7 +555,7 @@
                             </div><!-- /.testimonial -->
 
                             <div class="flat-testimonial">
-                                <div class="testimonial-meta">            
+                                <div class="testimonial-meta">
                                     <div class="testimonial-image">
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
@@ -572,7 +572,7 @@
                             </div><!-- /.testimonial -->
 
                             <div class="flat-testimonial">
-                                <div class="testimonial-meta">            
+                                <div class="testimonial-meta">
                                     <div class="testimonial-image">
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
@@ -589,7 +589,7 @@
                             </div><!-- /.testimonial -->
 
                             <div class="flat-testimonial">
-                                <div class="testimonial-meta">            
+                                <div class="testimonial-meta">
                                     <div class="testimonial-image">
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
@@ -606,7 +606,7 @@
                             </div><!-- /.testimonial -->
 
                             <div class="flat-testimonial">
-                                <div class="testimonial-meta">            
+                                <div class="testimonial-meta">
                                     <div class="testimonial-image">
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
@@ -709,7 +709,7 @@
 
                                     <p><select class="wpcf7-form-control wpcf7-select"><option value="Cargo">Cargo</option><option value="Person">Person</option></select></p>
 
-                                    <p><input id="phone" name="phone" type="text" value="" placeholder="Phone Number" required="required"></p>                                
+                                    <p><input id="phone" name="phone" type="text" value="" placeholder="Phone Number" required="required"></p>
                                 </div><!-- /.col-md-6 -->
 
                                 <div class="col-md-6">
@@ -723,12 +723,12 @@
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </div><!-- /.flat-row -->
-       
+
         <!-- Footer -->
         <footer class="footer">
-            <div class="content-bottom-widgets">        
+            <div class="content-bottom-widgets">
                 <div class="container">
-                    <div class="row"> 
+                    <div class="row">
                         <div class="flat-wrapper">
                             <div class="ft-wrapper clearfix">
                                 <div class="footer-50">
@@ -780,7 +780,7 @@
                                 </div><!-- /.footer-50 -->
                             </div><!-- /.ft-wrapper -->
                         </div><!-- /.flat-wrapper -->
-                    </div><!-- /.row -->    
+                    </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.footer-widgets -->
 
@@ -826,7 +826,7 @@
                                         <li><a href="{{route('index')}}">Careers</a></li>
                                         <li><a href="{{route('index')}}">FAQ</a></li>
                                         <li><a href="{{route('index')}}">Partners</a></li>
-                                  
+
                                     </ul>
                                 </div>
                             </div>
@@ -845,7 +845,7 @@
                                         <i class="fa fa-phone"></i>0729 414 008<br>
                                         <i class="fa fa-envelope"></i>fairlogisticsagency@gmail.com
                                     </p>
-                                </div>          
+                                </div>
                             </div>
                         </div><!-- /.col-md-3 -->
                     </div><!-- /.row -->
@@ -865,7 +865,7 @@
                                 </div>
                                 <div class="copyright">
                                     <div class="copyright-content">
-                                        Copyright © 2020. <a href="{{route('index')}}">Fair Logistics Agency Limited</a>   
+                                        Copyright © 2020. <a href="{{route('index')}}">Fair Logistics Agency Limited</a>
                                     </div>
                                 </div>
                             </div><!-- /.ft-wrap -->
@@ -878,23 +878,22 @@
         <!-- Go Top -->
         <a class="go-top">
             <i class="fa fa-chevron-up"></i>
-        </a>   
+        </a>
 
     </div>
-    
+
     <!-- Javascript -->
     <script type="text/javascript" src="{{asset('javascript/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/bootstrap.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('javascript/jquery.easing.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('javascript/jquery.easing.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/owl.carousel.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/jquery-waypoints.js')}}"></script>
-    <script type="text/javascript" src="{{asset('javascript/jquery-countTo.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('javascript/jquery-countTo.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/jquery.cookie.js')}}"></script>
-    <script type="text/javascript" src="{{asset('https://maps.googleapis.com/maps/api/js?sensor=false')}}"></script>    
+    <script type="text/javascript" src="{{asset('https://maps.googleapis.com/maps/api/js?sensor=false')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/gmap3.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/jquery-validate.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/parallax.js')}}"></script>
-    <script type="text/javascript" src="{{asset('javascript/switcher.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/main.js')}}"></script>
 
     <!-- Revolution Slider -->

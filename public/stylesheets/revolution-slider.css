@@ -538,7 +538,7 @@ text-shadow:none;
 }
 
 .tp-caption a:hover {
-color:#00bac9;
+color:#2E3092;
 }
 
 .tp-caption.thinheadline_dark {
@@ -1311,7 +1311,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 		color-stop(0.13, rgb(0,0,0)),
 		color-stop(1, rgb(50,50,50))
 	);
-	
+
 	display:table;max-width:100%; overflow:hidden;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;
 }
 
@@ -2439,7 +2439,7 @@ zoom: 1;
         top: 50%;
 	width: 60px;
 	height: 60px;
-	background-color: rgba(255, 255, 255, 1);	
+	background-color: rgba(255, 255, 255, 1);
 	text-align: center;
 	line-height: 20px;
 	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.05);
@@ -2452,18 +2452,18 @@ zoom: 1;
 
 .tp-leftarrow.square:before,
 .tp-rightarrow.square:before {
-	position: absolute;	
+	position: absolute;
 	content: "\f104";
 	left: 25px;
     top: 21px;
 	color: #000000;
    	font-family: "FontAwesome";
-   	font-size: 22px;	
+   	font-size: 22px;
    	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 	    -ms-transition: all 0.3s ease-in-out;
 	     -o-transition: all 0.3s ease-in-out;
-	        transition: all 0.3s ease-in-out;	
+	        transition: all 0.3s ease-in-out;
 }
 
 .tp-rightarrow.square:before {
@@ -2533,7 +2533,7 @@ zoom: 1;
 }
 
 .flat-button-slider.bg-button-slider-32bfc0 {
-	background-color: #32bfc0;
+	background-color: #2E3092;
 }
 
 .flat-button-slider.bg-button-slider-32bfc0:hover {
@@ -2541,7 +2541,7 @@ zoom: 1;
 }
 
 .flat-button-slider:hover {
-	background-color: #32bfc0;
+	background-color: #2E3092;
 }
 
 .flat-button-slider:hover a {
