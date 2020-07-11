@@ -50,7 +50,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="flat-wrapper">
-
+                            <img src="{{asset('images/kenya.png')}}" style="height: 15px;width: auto;">| |
+                            <img src="{{asset('images/uganda.png')}}" style="height: 15px;width: auto;">| |
+                            <img src="{{asset('images/rwanda.jpg')}}" style="height: 15px;width: auto;">| |
+                            <img src="{{asset('images/tanzania.png')}}" style="height: 15px;width: auto;">| |
+                            <img src="{{asset('images/ethopia.jpg')}}" style="height: 15px;width: auto;">
                             <div class="social-links">
                                 <a href="{{route('index')}}">
                                     <i class="fa fa-twitter"></i>
@@ -144,10 +148,10 @@
                     <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/1.jpg')}}" alt="slider-image" />
                         <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                            Standard Sea Freight<br>Services
+                            Fair Logistics Agency<br>Limited
                         </div>
                         <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                            If low costs matter for your shipment, try our sea freight<br>services.
+                            An Expert in Shipping, Clearing, Forwarding, Transportation and<br>General Suppliers.
                         </div>
                         <div class="tp-caption sfl flat-button-slider bg-button-slider-32bfc0" data-x="40" data-y="370" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="{{route('index')}}">Read more</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></div>
 
@@ -233,11 +237,11 @@
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
-                                                <a href="{{route('index')}}">Are you optimising your warehouse space ?</a>
+                                                <a href="{{route('index')}}">Our Mission</a>
                                             </h5>
                                         </div>
                                         <div class="box-content">
-                                            <div class="box-desc">Warehousing, Storage,shipping and transportation services offered by Fair Logistics have become an integral part of our client’s requirements, As our clients continue to demand increased savings and efficiencies in their businesses.</div>
+                                            <div class="box-desc">We are dedicated to providing the customer with the Most satisfying shipping, Clearing and Forwarding experience</div>
                                             <div class="box-button">
                                                 <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
                                             </div>

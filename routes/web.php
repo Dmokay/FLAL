@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('/', 'HomeController');
+Route::get('/', 'HomeController@index')->name('index');
+
+Route::get('/about', 'HomeController@about');
