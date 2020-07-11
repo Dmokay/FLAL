@@ -148,7 +148,8 @@
                     <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                         <img src="{{asset('images/slides/1.jpg')}}" alt="slider-image" />
                         <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                            Fair Logistics Agency<br>Limited
+                            <span class="scheme">Fair Logistics Agency<br>Limited</span>
+                            
                         </div>
                         <div class="tp-caption sfr desc-slide center" data-x="40" data-y="240" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
                             An Expert in Shipping, Clearing, Forwarding, Transportation and<br>General Suppliers.
