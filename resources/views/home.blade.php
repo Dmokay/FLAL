@@ -894,7 +894,7 @@
     <script type="text/javascript" src="{{asset('javascript/gmap3.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/jquery-validate.js')}}"></script>
     <script type="text/javascript" src="{{asset('javascript/parallax.js')}}"></script>
-    <script type="text/javascript" src="{{asset('javascript/switcher.js')}}"></script>
+    
     <script type="text/javascript" src="{{asset('javascript/main.js')}}"></script>
 
     <!-- Revolution Slider -->
