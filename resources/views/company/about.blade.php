@@ -2,6 +2,35 @@
 
 @section('content')
 
+    <!-- Page title -->
+    <div class="page-title parallax parallax2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-title-heading">
+                        <h2>About us</h2>
+                    </div><!-- /.page-title-heading -->
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.page-title -->
+
+    <div class="page-breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="flat-wrapper">
+                    <div class="breadcrumbs">
+                        <h2 class="trail-browse"></h2>
+                        <ul class="trail-items">
+                            <li class="trail-item"><a href="{{route('index')}}">Home</a></li>
+                            <li>About us</li>
+                        </ul>
+                    </div><!-- /.breadcrumbs -->
+                </div><!-- /.flat-wrapper -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.page-breadcrumbs -->
+
     <div class="flat-row flat-general sidebar-right pad-bottom75px">
         <div class="container">
             <div class="row">

@@ -101,23 +101,20 @@
                                         <li><a href="{{route('about')}}">Company</a>
                                             <ul class="submenu">
                                                 <li><a href="{{route('about')}}">About Us</a></li>
-                                                <li><a href="{{url('company-history.html')}}">Company History</a></li>
-                                                <li><a href="{{url('our-people.html')}}">Our People</a></li>
-                                                <li><a href="{{url('partners.html')}}">Partners</a></li>
-                                                <li><a href="{{url('careers.html')}}">Careers</a></li>
+                                                <li><a href="{{route('history')}}">Company History</a></li>
+                                                <li><a href="{{route('team')}}">Our People</a></li>
                                             </ul><!-- /.submenu -->
                                         </li>
 
                                         <li>
 
-                                            <a href="{{route('index')}}">Services</a>
+                                            <a href="{{route('clearing')}}">Services</a>
                                             <ul class="submenu">
-                                                <li><a href="{{route('index')}}">Ground transport</a></li>
-                                                <li><a href="{{route('index')}}">Cargo</a></li>
-                                                <li><a href="{{route('index')}}">Sea freight</a></li>
-                                                <li><a href="{{route('index')}}">Logistics solutions</a></li>
-                                                <li><a href="{{route('index')}}">Warehousing and storage</a></li>
-                                                <li><a href="{{route('index')}}">Clearing and Forwarding</a></li>
+                                                <li><a href="{{route('clearing')}}">Clearing & Forwarding</a></li>
+                                                <li><a href="{{route('clearing')}}">Over-land Transport</a></li>
+                                                <li><a href="{{route('clearing')}}">Sea freight</a></li>
+                                                <li><a href="{{route('clearing')}}">Warehousing and storage</a></li>
+                                                <li><a href="{{route('clearing')}}">Cargo</a></li>
                                             </ul><!-- /.submenu -->
 
 

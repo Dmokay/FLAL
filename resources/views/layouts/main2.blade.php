@@ -5,7 +5,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Canava-Logistics and Business HTML Template</title>
+    <title>Fair Logistics Agency Limited</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -97,24 +97,21 @@
 
                             <li><a href="about.html">Company</a>
                                 <ul class="submenu">
-                                    <li><a href="{{url('about')}}">About Us</a></li>
-                                    <li><a href="{{url('company-history.html')}}">Company History</a></li>
-                                    <li><a href="{{url('our-people.html')}}">Our People</a></li>
-                                    <li><a href="{{url('partners.html')}}">Partners</a></li>
-                                    <li><a href="{{url('careers.html')}}">Careers</a></li>
+                                    <li><a href="{{route('about')}}">About Us</a></li>
+                                    <li><a href="{{route('history')}}">Company History</a></li>
+                                    <li><a href="{{route('team')}}">Our People</a></li>
                                 </ul><!-- /.submenu -->
                             </li>
 
                             <li>
 
-                                <a href="{{route('index')}}">Services</a>
+                                <a href="{{route('clearing')}}">Services</a>
                                 <ul class="submenu">
-                                    <li><a href="{{route('index')}}">Ground transport</a></li>
-                                    <li><a href="{{route('index')}}">Cargo</a></li>
-                                    <li><a href="{{route('index')}}">Sea freight</a></li>
-                                    <li><a href="{{route('index')}}">Logistics solutions</a></li>
-                                    <li><a href="{{route('index')}}">Warehousing and storage</a></li>
-                                    <li><a href="{{route('index')}}">Clearing and Forwarding</a></li>
+                                    <li><a href="{{route('clearing')}}">Clearing & Forwarding</a></li>
+                                    <li><a href="{{route('clearing')}}">Over-land Transport</a></li>
+                                    <li><a href="{{route('clearing')}}">Sea freight</a></li>
+                                    <li><a href="{{route('clearing')}}">Warehousing and storage</a></li>
+                                    <li><a href="{{route('clearing')}}">Cargo</a></li>
                                 </ul><!-- /.submenu -->
 
 
@@ -138,35 +135,6 @@
             </div><!-- /.header-wrap -->
         </header><!-- /.header -->
     </div><!-- /.site-header -->
-
-    <!-- Page title -->
-    <div class="page-title parallax parallax2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-title-heading">
-                        <h2>About us</h2>
-                    </div><!-- /.page-title-heading -->
-                </div><!-- /.col-md-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.page-title -->
-
-    <div class="page-breadcrumbs">
-        <div class="container">
-            <div class="row">
-                <div class="flat-wrapper">
-                    <div class="breadcrumbs">
-                        <h2 class="trail-browse"></h2>
-                        <ul class="trail-items">
-                            <li class="trail-item"><a href="{{route('index')}}">Home</a></li>
-                            <li>About us</li>
-                        </ul>
-                    </div><!-- /.breadcrumbs -->
-                </div><!-- /.flat-wrapper -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.page-breadcrumbs -->
 
 
         @yield('content')
