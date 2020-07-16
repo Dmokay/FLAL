@@ -32,3 +32,9 @@ Route::get('/sea', 'HomeController@sea')->name('sea');
 Route::get('/warehouse', 'HomeController@warehouse')->name('warehouse');
 
 Route::get('/logistics', 'HomeController@logistics')->name('logistics');
+
+Route::get('/gallery', 'HomeController@gallery')->name('gallery');
+
+Route::get('/news', 'HomeController@news')->name('news');
+
+Route::get('/contact', 'HomeController@contact')->name('contact');

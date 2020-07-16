@@ -119,17 +119,17 @@
                             </li>
                             <li>
 
-                                <a href="{{route('index')}}">Gallery</a>
+                                <a href="{{route('gallery')}}">Gallery</a>
 
                             </li>
                             <li>
 
-                                <a href="{{route('index')}}">News</a>
+                                <a href="{{route('news')}}">News</a>
 
                             </li>
 
 
-                            <li><a href="{{route('index')}}">Contact</a></li>
+                            <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul><!-- /.menu -->
                     </nav><!-- /.mainnav -->
                 </div><!-- /.nav-wrap -->
@@ -305,11 +305,15 @@
 <script type="text/javascript" src="{{asset('javascript/jquery.easing.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/jquery-waypoints.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/jquery-countTo.js')}}"></script>
+<script type="text/javascript" src="{{asset('javascript/imagesloaded.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('javascript/jquery.isotope.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/jquery.flexslider-min.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/jquery.cookie.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/parallax.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/jquery.magnific-popup.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/main.js')}}"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPH8h1UpcK01BdcvoZeOzq-_wJqRxN1Pc"></script>
+<script type="text/javascript" src="{{asset('javascript/gmap3.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('javascript/jquery-validate.js')}}"></script>
 </body>
 </html>

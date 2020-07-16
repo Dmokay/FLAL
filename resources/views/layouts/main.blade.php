@@ -122,17 +122,17 @@
                                         </li>
                                         <li>
 
-                                            <a href="{{route('index')}}">Gallery</a>
+                                            <a href="{{route('gallery')}}">Gallery</a>
 
                                         </li>
                                         <li>
 
-                                            <a href="{{route('index')}}">News</a>
+                                            <a href="{{route('news')}}">News</a>
 
                                         </li>
 
 
-                                        <li><a href="{{route('index')}}">Contact</a></li>
+                                        <li><a href="{{route('contact')}}">Contact</a></li>
                                     </ul><!-- /.menu -->
                                 </nav><!-- /.mainnav -->
                             </div><!-- /.nav-wrap -->

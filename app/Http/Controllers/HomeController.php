@@ -52,6 +52,18 @@ class HomeController extends Controller
     {
         return view('services.logistics');
     }
+    public function gallery()
+    {
+        return view('gallery');
+    }
+    public function news()
+    {
+        return view('news');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
 
 
 }
