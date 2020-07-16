@@ -32,6 +32,26 @@ class HomeController extends Controller
     {
         return view('services.clearing_forwading');
     }
+    public function cargo()
+    {
+        return view('services.cargo');
+    }
+    public function land()
+    {
+        return view('services.land');
+    }
+    public function sea()
+    {
+        return view('services.sea');
+    }
+    public function warehouse()
+    {
+        return view('services.warehouse');
+    }
+    public function logistics()
+    {
+        return view('services.logistics');
+    }
 
 
 }

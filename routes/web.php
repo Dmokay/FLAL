@@ -22,3 +22,13 @@ Route::get('/history', 'HomeController@history')->name('history');
 Route::get('/team', 'HomeController@team')->name('team');
 
 Route::get('/clearing', 'HomeController@clearing')->name('clearing');
+
+Route::get('/cargo', 'HomeController@cargo')->name('cargo');
+
+Route::get('/land', 'HomeController@land')->name('land');
+
+Route::get('/sea', 'HomeController@sea')->name('sea');
+
+Route::get('/warehouse', 'HomeController@warehouse')->name('warehouse');
+
+Route::get('/logistics', 'HomeController@logistics')->name('logistics');

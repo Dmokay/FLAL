@@ -54,13 +54,12 @@
                     <div class="flat-divider d30px"></div>
 
                     <h3 class="flat-title-section style mag-top10px">Company <span>overview</span></h3>
-                    <p>At Canava Transport, we know time is of the essence. We have used our legacy Truckload service in the Mid-Atlantic and Midwest regions to shape what our company is today. In addition to Truckload (TL) services, we have expanded our reach on the asset based side to include expedited services, reverse logistics and volume Less-Than-Truckload (LTL) shipments; as well as a compliment of non-asset based solutions to service our customers’ needs throughout North America.</p>
-                    <p>Our family-run business values hard work, respect, commitment and teamwork and our workplace is characterized by the high energy, enthusiasm and effort of our employees who thrive in this positive environment. We are committed to providing our customers with first-rate service, which starts with our employees’ dedication to our enterprise of services.</p>
-                    <p>The commitment we have to safety and security is unmatched. We pride ourselves on posting industry leading Compliance, Safety, Accountability (CSA) scores, as well as an industry low claims ratio to give you and your customers that piece of mind when your freight is in our hands. Our primary obligation to our customers and our community starts with the hiring and training of our team members and our pledge to put the safest drivers and equipment on the road.</p>
-                    <p>From our experienced drivers to our knowledgeable office staff, Canava Transport has the desire and commitment to work hand-in-hand to develop transportation solution that is truly customized to your needs.</p>
-
+                    <p>At Fair Logistics, we know time is of the essence. We pride ourselves in being regarded as one of the most reliable and affordable logistic and warehousing service providers in the country. As a third party logistic service provider, we excel at a range of logistic services, which includes trucking services, warehousing services, logistic services, and a range of other ancillary services. We have years of experience in the business of logistics, warehousing, distribution, trucking and supply chain management services, and aim to provide our clients with convenience, reliability and affordability through our premium logistic services.</p>
+                    <p>Our team of experts at all levels of our services have years of experience backing them, which adds the credibility of an expert workforce. This also helps us in cutting down response time, and providing punctual delivery and services at all times, whether it is trucking service or warehousing services. Our goal is to make a positive difference in your business through our services, and build long term relationship with you. Our commitment to our clients can be seen by the amount of emphasis we lay on team work, customer support services and making technological upgrades in our logistic process and equipment from time to time.</p>
+                    <p>Our experience in all the fields we serve in, and the range of services we provide, makes us one of the most comprehensive logistic service providers in the nation. And, with the help of continuous support and trust of our clients, we aim to stay at the top of the game, and humbly so. Our sophisticated systems, neatly designed logistic process, state of the art logistic tools and equipment, most advanced carriers, custom tailored services, and dedication to keep the costs low for end users, help us to provide logistic solution that aligns well with our clients’ requirements. We welcome you to our site, and request you to consult with our logistic experts for your logistic needs, and rest assured of getting done.</p>
+                    <p>We have years of experience in the business of logistics, warehousing, distribution, trucking and supply chain management services, and aim to provide our clients with convenience, reliability and affordability through our premium logistic services.</p>
                     <div class="promobox">
-                        <h5 class="promobox-title mag-top0px">We will take care of your cargo or your passenger and deliver them safe and on time.</h5>
+                        <h5 class="promobox-title mag-top0px">With utmost care and timely consideration, We will handle your cargo and deliver it safe and on time.</h5>
                         <div class="group-btn">
                             <a class="button black" href="{{url('#')}}">contact us <i class="fa fa-chevron-right"></i></a>
 
@@ -76,13 +75,13 @@
                                 </ul>
                                 <div class="content-tab">
                                     <div class="content-inner">
-                                        <p>At Canava Transport, ensuring the safety of our customers, employees and our communities is our priority. We understand the importance of continuous training and are proud of our safety knowledge, experienced staff and ability to exceed industry standards year after year. We have established and continually maintain excellent motor carrier safety ratings and low accident frequencies.</p>
+                                        <p>At Fair Logistics, ensuring the safety of our customers, employees and our communities is our priority. We understand the importance of continuous training and are proud of our safety knowledge, experienced staff and ability to exceed industry standards year after year. We have established and continually maintain excellent motor carrier safety ratings and low accident frequencies.</p>
                                         <p>As a company, we have a solid safety performance history and will continue to be a leader in the area of safety and compliance, due to the dedication and professionalism of our fleet of drivers and vehicle maintenance personnel.</p>
                                     </div><!-- /.content-inner -->
 
                                     <div class="content-inner">
-                                        <p>At Canava Transport, we offer industry-leading asset protection and security compliance programs.</p>
-                                        <p>Canava Transport understands that our customers may have important and unique needs related to homeland security regulatory compliance, high-risk products, or brand protection. We offer consultation and proactive partnership to ensure that our customers’ security needs are met.</p>
+                                        <p>At Fair Logistics, we offer industry-leading asset protection and security compliance programs.</p>
+                                        <p>We understands that our customers may have important and unique needs related to security regulatory compliance, high-risk products, or brand protection. We offer consultation and proactive partnership to ensure that our customers’ security needs are met.</p>
                                         <p>By leveraging modern and proven technologies, we provide for the integrity of customer assets while in-transit or at one of our facilities.</p>
                                     </div><!-- /.content-inner -->
                                 </div><!-- /.content-tab -->
@@ -106,36 +105,27 @@
                                         <a class="active" href="{{route('about')}}">About us</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('about')}}">Company history</a>
+                                        <a href="{{route('history')}}">Company history</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('about')}}">our people</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="{{route('about')}}">Partners</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="{{route('about')}}">Careers</a>
+                                        <a href="{{route('team')}}">our people</a>
                                     </li>
 
                                 </ul>
                             </div><!-- /.widget_nav_menu -->
 
                             <div class="widget widget_recent_entries">
-                                <h4 class="widget-title">Company news</h4>
+                                <h4 class="widget-title">Company Values</h4>
                                 <ul>
                                     <li>
-                                        <a href="blog-single.html">Raising productivity &amp; morale in the warehouse</a>
-                                        <span class="post-date">March 25, 2016</span>
+                                        <a href="{{route('about')}}">Our Mission</a>
+                                        <span>We are dedicated to providing the customer with the Most satisfying shipping, Clearing and Forwarding experience</span>
                                     </li>
                                     <li>
-                                        <a href="blog-single.html">Seafield logistics goes into administration</a>
-                                        <span class="post-date">March 25, 2016</span>
+                                        <a href="{{route('about')}}">Our Vision</a>
+                                        <span>We are dedicated to providing the customer with the Most satisfying shipping, Clearing and Forwarding experience</span>
                                     </li>
-                                    <li>
-                                        <a href="blog-single.html">Transport managers grow scarce</a>
-                                        <span class="post-date">March 25, 2016</span>
-                                    </li>
+
                                 </ul>
                             </div><!-- /.widget_recent_entries -->
 

@@ -3,18 +3,65 @@
 @section('content')
 
     <!-- Promobox -->
-        <div class="flat-row bg-scheme pad-top0px pad-bottom0px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="promobox style1 style2 clearfix">
-                            <h5 class="promobox-title">We are honored to be a leading and reliable partner in the field of multimodal Logistics in Kenya</h5>
-                            <a class="button black sm" href="{{route('index')}}">Talk to us<i class="fa fa-chevron-right"></i></a>
+    <div class="flat-row bg-scheme pad-top20px pad-bottom20px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="clients-image style">
+                        <div class="item-img">
+                            <img src="{{asset('images/customers/diamond_industries.jpg')}}" alt="images">
                         </div>
-                    </div><!-- /.col-md-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.flat-row -->
+                        <p class="tooltip">Diamond Industries</p>
+                    </div>
+                </div><!-- /.col-md-2 -->
+
+                <div class="col-md-2">
+                    <div class="clients-image style">
+                        <div class="item-img">
+                            <img src="{{asset('images/customers/mbs_technical.jpg')}}" alt="images">
+                        </div>
+                        <p class="tooltip">Technical University of Mombasa</p>
+                    </div>
+                </div><!-- /.col-md-2 -->
+
+                <div class="col-md-2">
+                    <div class="clients-image style">
+                        <div class="item-img">
+                            <img src="{{asset('images/customers/pacific_international.jpg')}}" alt="images">
+                        </div>
+                        <p class="tooltip">Pacific International Ltd</p>
+                    </div>
+                </div><!-- /.col-md-2 -->
+
+                <div class="col-md-2">
+                    <div class="clients-image style">
+                        <div class="item-img">
+                            <img src="{{asset('images/customers/pwani_oil.jpg')}}" alt="images">
+                        </div>
+                        <p class="tooltip">Pwani Oil Products Ltd</p>
+                    </div>
+                </div><!-- /.col-md-2 -->
+
+                <div class="col-md-2">
+                    <div class="clients-image style">
+                        <div class="item-img">
+                            <img src="{{asset('images/customers/west_coast.jpg')}}" alt="images">
+                        </div>
+                        <p class="tooltip">West Coast Oil Ltd</p>
+                    </div>
+                </div><!-- /.col-md-2 -->
+
+                <div class="col-md-2">
+                    <div class="clients-image style">
+                        <div class="item-img">
+                            <img src="{{asset('images/customers/diamond_industries.jpg')}}" alt="images">
+                        </div>
+                        <p class="tooltip">Bradbell</p>
+                    </div>
+                </div><!-- /.col-md-2 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.flat-row -->
 
         <!-- Flat imagebox -->
         <div class="flat-row parallax-style parallax1">
@@ -36,9 +83,7 @@
                                         </div>
                                         <div class="box-content">
                                             <div class="box-desc">At Fair Logistics, we know time is of the essence. We have used our legacy Truckload service in the coastal part of Kenya to shape what our company is today.</div>
-                                            <div class="box-button">
-                                                <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div><!-- /.imagebox -->
@@ -57,9 +102,7 @@
                                         </div>
                                         <div class="box-content">
                                             <div class="box-desc">We are dedicated to providing the customer with the Most satisfying shipping, Clearing and Forwarding experience</div>
-                                            <div class="box-button">
-                                                <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div><!-- /.imagebox -->
@@ -73,14 +116,12 @@
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
-                                                <a href="{{route('index')}}">The gallery of Fair Logistics Agency</a>
+                                                <a href="{{route('index')}}">What makes Fair Logistics Agency stand out?</a>
                                             </h5>
                                         </div>
                                         <div class="box-content">
-                                            <div class="box-desc">Some images highlighting our warehouse, transport, Cargo and logistics expertise.</div>
-                                            <div class="box-button">
-                                                <a class="button bg-scheme3" href="{{route('index')}}">read more <i class="fa fa-chevron-right"></i></a>
-                                            </div>
+                                            <div class="box-desc">We are known for reasonably priced, environmentally sensitive and convenient Service Provision that is second to none.</div>
+
                                         </div>
                                     </div>
                                 </div><!-- /.imagebox -->
@@ -106,11 +147,12 @@
                             <div class="flat-item item-three-column">
                                 <div class="iconbox style1">
                                     <div class="box-header">
-                                        <div class="box-icon"><i class="fa fa-dropbox"></i></div>
-                                        <h5 class="box-title">Ground transport</h5>
+                                        <div class="box-icon"><i class="fa fa-mail-forward"></i></div>
+                                        <h5 class="box-title"><a href="{{route('clearing')}}">Clearing & Forwarding</a></h5>
                                     </div>
                                     <div class="box-content">
-                                        Ground transport along with other ancillary services, help us to provide tailor made logistic solutions to our clients.
+                                        With our extensive network, we will find a competitive and efficient solution to your next assignment.
+
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -119,7 +161,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-truck"></i></div>
-                                        <h5 class="box-title">Cargo</h5>
+                                        <h5 class="box-title"><a href="{{route('clearing')}}">Over-land Transport</a></h5>
                                     </div>
                                     <div class="box-content">
                                         Combined rail road transport is particularly well suited to the shipping of hazardous goods since it reduces risk.
@@ -130,11 +172,12 @@
                             <div class="flat-item item-three-column">
                                 <div class="iconbox style1">
                                     <div class="box-header">
-                                        <div class="box-icon"><i class="fa fa-cube"></i></div>
-                                        <h5 class="box-title">Warehousing and storage</h5>
+                                        <div class="box-icon"><i class="fa fa-ship"></i></div>
+                                        <h5 class="box-title"><a href="{{route('clearing')}}">Sea freight</a></h5>
                                     </div>
                                     <div class="box-content">
-                                       Fair Logistics is able to offer heated or unheated warehouse solutions both for short-term and for long-term storage.
+                                        By using a combination of sea and land freight, you bring added flexibility to your supply chain.
+
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -148,11 +191,12 @@
                             <div class="flat-item item-three-column">
                                 <div class="iconbox style1">
                                     <div class="box-header">
-                                        <div class="box-icon"><i class="fa fa-mail-forward"></i></div>
-                                        <h5 class="box-title">Clearing and Forwarding</h5>
+                                        <div class="box-icon"><i class="fa fa-cube"></i></div>
+                                        <h5 class="box-title"><a href="{{route('clearing')}}">Warehousing and storage</a></h5>
                                     </div>
                                     <div class="box-content">
-                                        With our extensive network, we will find a competitive and efficient solution to your next assignment.
+                                        Fair Logistics is able to offer heated or unheated warehouse solutions both for short-term and for long-term storage.
+
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -160,11 +204,11 @@
                             <div class="flat-item item-three-column">
                                 <div class="iconbox style1">
                                     <div class="box-header">
-                                        <div class="box-icon"><i class="fa fa-ship"></i></div>
-                                        <h5 class="box-title">Sea freight</h5>
+                                        <div class="box-icon"><i class="fa fa-dropbox"></i></div>
+                                        <h5 class="box-title"><a href="{{route('clearing')}}">Cargo</a></h5>
                                     </div>
                                     <div class="box-content">
-                                        By using a combination of sea and land freight, you bring added flexibility to your supply chain.
+                                        Ground transport along with other ancillary services, help us to provide tailor made logistic solutions to our clients.
                                     </div>
                                 </div>
                             </div><!-- /.item-three-column -->
@@ -173,7 +217,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-globe"></i></div>
-                                        <h5 class="box-title">Logistics solutions</h5>
+                                        <h5 class="box-title"><a href="{{route('clearing')}}">Logistics Solutions</a></h5>
                                     </div>
                                     <div class="box-content">
                                         Smart and sustainable business requires the skills of logistics experts who are able to think ahead.
@@ -443,6 +487,65 @@
                         </div><!-- /.flat-testimonial -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
+                <div class="flat-row bg-scheme pad-top20px pad-bottom20px">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="clients-image style">
+                                    <div class="item-img">
+                                        <img src="images/client/c1.png" alt="images">
+                                    </div>
+                                    <p class="tooltip">Laurentides</p>
+                                </div>
+                            </div><!-- /.col-md-2 -->
+
+                            <div class="col-md-2">
+                                <div class="clients-image style">
+                                    <div class="item-img">
+                                        <img src="images/client/c2.png" alt="images">
+                                    </div>
+                                    <p class="tooltip">Veolia</p>
+                                </div>
+                            </div><!-- /.col-md-2 -->
+
+                            <div class="col-md-2">
+                                <div class="clients-image style">
+                                    <div class="item-img">
+                                        <img src="images/client/c3.png" alt="images">
+                                    </div>
+                                    <p class="tooltip">Plane Business</p>
+                                </div>
+                            </div><!-- /.col-md-2 -->
+
+                            <div class="col-md-2">
+                                <div class="clients-image style">
+                                    <div class="item-img">
+                                        <img src="images/client/c4.png" alt="images">
+                                    </div>
+                                    <p class="tooltip">Arrow GLS</p>
+                                </div>
+                            </div><!-- /.col-md-2 -->
+
+                            <div class="col-md-2">
+                                <div class="clients-image style">
+                                    <div class="item-img">
+                                        <img src="images/client/c5.png" alt="images">
+                                    </div>
+                                    <p class="tooltip">MWR Transport</p>
+                                </div>
+                            </div><!-- /.col-md-2 -->
+
+                            <div class="col-md-2">
+                                <div class="clients-image style">
+                                    <div class="item-img">
+                                        <img src="images/client/c6.png" alt="images">
+                                    </div>
+                                    <p class="tooltip">Bradbell</p>
+                                </div>
+                            </div><!-- /.col-md-2 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </div><!-- /.flat-row -->
             </div><!-- /.container -->
         </div><!-- /.flat-row -->
 

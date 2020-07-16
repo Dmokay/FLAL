@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-title-heading">
-                        <h2>Clearing and Forwarding</h2>
+                        <h2>Clearing & Forwarding</h2>
                     </div><!-- /.page-title-heading -->
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
@@ -21,11 +21,10 @@
             <div class="row">
                 <div class="flat-wrapper">
                     <div class="breadcrumbs">
-                        <h2 class="trail-browse">You are here:</h2>
                         <ul class="trail-items">
                             <li class="trail-item"><a href="{{route('index')}}">Home</a></li>
                             <li class="trail-item"><a href="{{route('clearing')}}">Services</a></li>
-                            <li>Clearing and Forwarding</li>
+                            <li>Cargo</li>
                         </ul>
                     </div><!-- /.breadcrumbs -->
                 </div><!-- /.flat-wrapper -->
@@ -41,10 +40,10 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <a class="popup-gallery" href="images/services/s1.jpg"><img src="images/services/s1.jpg" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/services/s1.jpg')}}"><img src="{{asset('images/services/s1.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
-                                    <a class="popup-gallery" href="images/services/s2.jpg"><img src="images/services/s2.jpg" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/services/s2.jpg')}}"><img src="{{asset('images/services/s2.jpg')}}" alt="images"></a>
                                 </li>
                             </ul>
                         </div>
@@ -62,9 +61,9 @@
 
                     <div class="flat-tabs">
                         <ul class="menu-tabs">
-                            <li class="active"><a href="services-detail.html#">Protection</a></li>
-                            <li class=""><a href="services-detail.html#">Versatility</a></li>
-                            <li class=""><a href="services-detail.html#">Customized solutions</a></li>
+                            <li class="active"><a href="{{url('#')}}">Protection</a></li>
+                            <li class=""><a href="{{url('#')}}">Versatility</a></li>
+                            <li class=""><a href="{{url('#')}}">Customized solutions</a></li>
                         </ul>
                         <div class="content-tab">
                             <div class="content-inner active">
@@ -87,25 +86,25 @@
                             <div class="widget widget_nav_menu">
                                 <ul class="nav_menu">
                                     <li class="menu-item">
-                                        <a href="services.html">All services</a>
+                                        <a href="{{route('clearing')}}">All services</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a class="active" href="services-detail.html">Packaged goods transport</a>
+                                        <a class="active" href="{{route('clearing')}}">Clearing & Forwarding</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="services-detail-v2.html">Multimodal transport</a>
+                                        <a href="{{route('land')}}">Over-land Transport</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="services-detail-v3.html">Sea and air freight</a>
+                                        <a href="{{route('sea')}}">Sea freight</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="services-detail-v4.html">Logistics solutions</a>
+                                        <a href="{{route('warehouse')}}">Warehousing and storage</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="services-detail-v5.html">Warehousing and storage</a>
+                                        <a href="{{route('cargo')}}">Cargo</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="services-detail-v6.html">Forwarding services</a>
+                                        <a href="{{route('logistics')}}">Logistics Solutions</a>
                                     </li>
                                 </ul>
                             </div><!-- /.widget_nav_menu -->
@@ -114,11 +113,11 @@
                                 <h4 class="widget-title">Recent news</h4>
                                 <ul>
                                     <li>
-                                        <a href="blog-single.html">Raising productivity &amp; morale in the warehouse</a>
+                                        <a href="{{route('clearing')}}">Raising productivity &amp; morale in the warehouse</a>
                                         <span class="post-date">March 25, 2016</span>
                                     </li>
                                     <li>
-                                        <a href="blog-single.html">Seafield logistics goes into administration</a>
+                                        <a href="{{route('clearing')}}">Seafield logistics goes into administration</a>
                                         <span class="post-date">March 25, 2016</span>
                                     </li>
                                 </ul>

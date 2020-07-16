@@ -36,7 +36,7 @@
     <div class="container">
         <div class="row">
             <div class="general">
-                <img src="images/img-single/ch.jpg" alt="images">
+                <img src="{{asset('images/img-single/ch.jpg')}}" alt="images">
 
                 <div class="flat-divider d30px"></div>
 
@@ -77,25 +77,13 @@
                         <div class="widget widget_nav_menu">
                             <ul class="nav_menu">
                                 <li class="menu-item">
-                                    <a href="about.html">About us</a>
+                                    <a href="{{route('about')}}">About us</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a class="active" href="company-history.html">Company history</a>
+                                    <a class="active" href="{{route('history')}}">Company history</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="our-people.html">our people</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="partners.html">Partners</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="careers.html">Careers</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="faq.html">faq</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="testimonials.html">Testimonials</a>
+                                    <a href="{{route('team')}}">our people</a>
                                 </li>
                             </ul>
                         </div><!-- /.widget_nav_menu -->
@@ -123,7 +111,7 @@
                                 <div class="content-text">
                                     <h4 class="title">How can we help you?</h4>
                                     <p>Our customer service standards provide information on how we will handle your enquiry. There is also compliments and complaints information to help you when you lodge feedback with us.</p>
-                                    <a class="button white" href="company-history.html#">Contact Us<i class="fa fa-chevron-right"></i></a>
+                                    <a class="button white" href="{{route('index')}}">Talk to Us<i class="fa fa-chevron-right"></i></a>
                                 </div>
                             </div><!-- /.textwidget -->
                         </div><!-- /.widget_text -->

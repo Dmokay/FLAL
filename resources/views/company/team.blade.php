@@ -44,7 +44,7 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="images/member/1.jpg" alt="images">
+                                <img src="{{asset('images/member/1.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">John Doe</h3>
@@ -53,10 +53,10 @@
                                     Having accumulated knowledge &amp; experience in many fields &amp; having a record as a professional, friendly, honest, reliable &amp; diligent…
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="our-people.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="our-people.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="our-people.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="our-people.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- /.flat-member -->
@@ -65,7 +65,7 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="images/member/2.jpg" alt="images">
+                                <img src="{{asset('images/member/2.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">David Schenken</h3>
@@ -74,10 +74,10 @@
                                     I am a highly motivated and professional capable of delivering to the highest level I have first rate organisational skills and the ability…
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="our-people.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="our-people.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="our-people.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="our-people.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- /.flat-member -->
@@ -86,7 +86,7 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="images/member/3.jpg" alt="images">
+                                <img src="{{asset('images/member/3.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">Lonnie Radzinsky</h3>
@@ -95,10 +95,10 @@
                                     A charismatic individual who is not afraid of trying to achieve something that has seemed to be impossible to many.
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="our-people.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="our-people.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="our-people.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="our-people.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- /.flat-member -->
@@ -115,7 +115,7 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="images/member/4.jpg" alt="images">
+                                <img src="{{asset('images/member/4.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">Edgars Kronbergs</h3>
@@ -124,10 +124,10 @@
                                     A dynamic, highly disciplined and proactive Transport planner with over 10 years in both the military and private road haulage/tranport…
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="our-people.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="our-people.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="our-people.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="our-people.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- /.flat-member -->
@@ -136,7 +136,7 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="images/member/5.jpg" alt="images">
+                                <img src="{{asset('images/member/5.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">Ryan Edwards</h3>
@@ -145,10 +145,10 @@
                                     Having accumulated knowledge &amp; experience in many fields &amp; having a record as a professional, friendly, honest, reliable &amp; diligent…
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="our-people.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="our-people.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="our-people.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="our-people.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- /.flat-member -->
@@ -157,7 +157,7 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="images/member/6.jpg" alt="images">
+                                <img src="{{asset('images/member/6.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">Andrew Souter</h3>
@@ -166,10 +166,10 @@
                                     I am a highly motivated and professional capable of delivering to the highest level I have first rate organisational skills and the ability…
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="our-people.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="our-people.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="our-people.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="our-people.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
                             </div>
                         </div><!-- /.flat-member -->
@@ -184,26 +184,15 @@
                         <div class="widget widget_nav_menu">
                             <ul class="nav_menu">
                                 <li class="menu-item">
-                                    <a href="about.html">About us</a>
+                                    <a href="{{route('about')}}">About us</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="company-history.html">Company history</a>
+                                    <a href="{{route('history')}}">Company history</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a class="active" href="our-people.html">our people</a>
+                                    <a class="active" href="{{route('team')}}">our people</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="partners.html">Partners</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="careers.html">Careers</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="faq.html">faq</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="testimonials.html">Testimonials</a>
-                                </li>
+
                             </ul>
                         </div><!-- /.widget_nav_menu -->
 

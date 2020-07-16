@@ -13,24 +13,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Bootstrap  -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" >
+    <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/bootstrap.css')}}" >
 
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/style.css')}}">
 
     <!-- Responsive -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/responsive.css')}}">
 
     <!-- Colors -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+    <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/colors/color1.css')}}" id="colors">
 
     <!-- Animation Style -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('stylesheets/animate.css')}}">
 
     <!-- Favicon and touch icons  -->
-    <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
-    <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
-    <link href="icon/favicon.png" rel="shortcut icon">
+    <link href="{{asset('icon/apple-touch-icon-48-precomposed.png')}}" rel="apple-touch-icon-precomposed" sizes="48x48">
+    <link href="{{asset('icon/apple-touch-icon-32-precomposed.png')}}" rel="apple-touch-icon-precomposed">
+    <link href="{{asset('icon/favicon.png')}}" rel="shortcut icon">
 
     <link rel="stylesheet" type="text/css" href="{{url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
 
@@ -95,7 +95,7 @@
 
                             </li>
 
-                            <li><a href="about.html">Company</a>
+                            <li><a href="{{route('about')}}">Company</a>
                                 <ul class="submenu">
                                     <li><a href="{{route('about')}}">About Us</a></li>
                                     <li><a href="{{route('history')}}">Company History</a></li>
@@ -108,10 +108,11 @@
                                 <a href="{{route('clearing')}}">Services</a>
                                 <ul class="submenu">
                                     <li><a href="{{route('clearing')}}">Clearing & Forwarding</a></li>
-                                    <li><a href="{{route('clearing')}}">Over-land Transport</a></li>
-                                    <li><a href="{{route('clearing')}}">Sea freight</a></li>
-                                    <li><a href="{{route('clearing')}}">Warehousing and storage</a></li>
-                                    <li><a href="{{route('clearing')}}">Cargo</a></li>
+                                    <li><a href="{{route('land')}}">Over-land Transport</a></li>
+                                    <li><a href="{{route('sea')}}">Sea freight</a></li>
+                                    <li><a href="{{route('warehouse')}}">Warehousing and storage</a></li>
+                                    <li><a href="{{route('cargo')}}">Cargo</a></li>
+                                    <li><a href="{{route('logistics')}}">Logistics Solutions</a></li>
                                 </ul><!-- /.submenu -->
 
 

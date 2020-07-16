@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-title-heading">
-                        <h2>Over-land Transportation</h2>
+                        <h2>Logistic Solutions</h2>
                     </div><!-- /.page-title-heading -->
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
@@ -92,7 +92,7 @@
                                         <a href="{{route('clearing')}}">Clearing & Forwarding</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a class="active" href="{{route('land')}}">Over-land Transport</a>
+                                        <a href="{{route('land')}}">Over-land Transport</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="{{route('sea')}}">Sea freight</a>
@@ -104,7 +104,7 @@
                                         <a href="{{route('cargo')}}">Cargo</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('logistics')}}">Logistics Solutions</a>
+                                        <a class="active" href="{{route('logistics')}}">Logistics Solutions</a>
                                     </li>
                                 </ul>
                             </div><!-- /.widget_nav_menu -->

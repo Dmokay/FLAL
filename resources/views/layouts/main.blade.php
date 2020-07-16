@@ -111,10 +111,11 @@
                                             <a href="{{route('clearing')}}">Services</a>
                                             <ul class="submenu">
                                                 <li><a href="{{route('clearing')}}">Clearing & Forwarding</a></li>
-                                                <li><a href="{{route('clearing')}}">Over-land Transport</a></li>
-                                                <li><a href="{{route('clearing')}}">Sea freight</a></li>
-                                                <li><a href="{{route('clearing')}}">Warehousing and storage</a></li>
-                                                <li><a href="{{route('clearing')}}">Cargo</a></li>
+                                                <li><a href="{{route('land')}}">Over-land Transport</a></li>
+                                                <li><a href="{{route('sea')}}">Sea freight</a></li>
+                                                <li><a href="{{route('warehouse')}}">Warehousing and storage</a></li>
+                                                <li><a href="{{route('cargo')}}">Cargo</a></li>
+                                                <li><a href="{{route('logistics')}}">Logistics Solutions</a></li>
                                             </ul><!-- /.submenu -->
 
 
