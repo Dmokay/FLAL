@@ -21,9 +21,9 @@
             <div class="row">
                 <div class="flat-wrapper">
                     <div class="breadcrumbs">
-                        <h2 class="trail-browse">You are here:</h2>
+                        <h2 class="trail-browse"></h2>
                         <ul class="trail-items">
-                            <li class="trail-item"><a href="index-v2.html">Home</a></li>
+                            <li class="trail-item"><a href="{{route('index')}}">Home</a></li>
                             <li>Contact us</li>
                         </ul>
                     </div><!-- /.breadcrumbs -->
@@ -38,46 +38,15 @@
                 <div class="col-md-3">
                     <h5 class="mag-top0px">Headquarters</h5>
                     <p>
-                        <strong>Global Transport, New York</strong><br>
-                        66 Nicholson St. New York US<br>
-                        Tel: +012 222 989888<br>
-                        Fax: +012 222 989899<br>
-                        Email: <a class="scheme" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                        <strong>Amal Plaza, Mombasa</strong><br>
+                        Mamba Round About<br>
+                        Tel: +254 722 353 372<br>
+                        Tel: +254 729 414 008<br>
+                        Email: <a class="scheme" href="{{url('#')}}">info@fairlogistics.net</a><br>
+                        Email: <a class="scheme" href="{{url('#')}}">fairlogisticsagency@gmail.com</a>
                     </p>
                 </div><!-- /.col-md-3 -->
 
-                <div class="col-md-3">
-                    <h5 class="mag-top0px">canava<span class="scheme">england</span></h5>
-                    <p>
-                        <strong>Headquarters (London Office)</strong><br>
-                        6-8 Spring St, London<br>
-                        Tel: +012 222 989888<br>
-                        Fax: +012 222 989899<br>
-                        Email: <a class="scheme" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-                    </p>
-                </div><!-- /.col-md-3 -->
-
-                <div class="col-md-3">
-                    <h5 class="mag-top0px">canava<span class="scheme">italy</span></h5>
-                    <p>
-                        <strong>Headquarters (Rome Office)</strong><br>
-                        7 Mario Der Rossi, Roma<br>
-                        Tel: +012 222 989888<br>
-                        Fax: +012 222 989899<br>
-                        Email: <a class="scheme" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-                    </p>
-                </div><!-- /.col-md-3 -->
-
-                <div class="col-md-3">
-                    <h5 class="mag-top0px">canava<span class="scheme">germany</span></h5>
-                    <p>
-                        <strong>Headquarters (Munich Office)</strong><br>
-                        Schwanthaler Straße 75a<br>
-                        Tel: +012 222 989888<br>
-                        Fax: +012 222 989899<br>
-                        Email: <a class="scheme" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-                    </p>
-                </div><!-- /.col-md-3 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.flat-row -->
@@ -97,8 +66,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="flat-contact-us">
-                        <h4 class="flat-title-section style mag-top0px">Opening <span>hours</span></h4>
-                        <p>Find out opening hours and information for Canava Transport. Thank you !</p>
+                        <h4 class="flat-title-section style mag-top0px">Office<span> hours</span></h4>
+                        <p>Find us at the office ready to serve you through out the week as per these hours. Thank you !</p>
                     </div>
                     <div class="flat-divider d20px"></div>
                     <ul class="iconlist">
@@ -113,29 +82,7 @@
                     <div class="flat-divider d20px"></div>
                 </div><!-- /.col-md-4 -->
 
-                <div class="col-md-8">
-                    <p>Please fill out the following form and a representative will contact you.</p>
-                    <div class="flat-divider d10px"></div>
-                    <form id="contactform" method="post" action="./contact/contact-process.php">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p><input id="name" name="name" type="text" value="" placeholder="Name" required="required"></p>
 
-                                <p><input id="email" name="email" type="email" value="" placeholder="Email" required="required"></p>
-
-                                <p><select class="wpcf7-form-control wpcf7-select"><option value="Transport">Transport</option><option value="Logistics">Logistics</option></select></p>
-
-                                <p><input id="phone" name="phone" type="text" value="" placeholder="Phone Number" required="required"></p>
-                            </div><!-- /.col-md-6 -->
-
-                            <div class="col-md-6">
-                                <p><textarea name="message" placeholder="Comment" required="required"></textarea></p>
-                                <span class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Sent Mail">
-                                    </span>
-                            </div><!-- /.col-md-6 -->
-                        </div><!-- /.row -->
-                    </form>
-                </div><!-- /.col-md-8 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.flat-row -->

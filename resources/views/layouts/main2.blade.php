@@ -182,19 +182,6 @@
                                 </div><!-- /.row -->
                             </div><!-- /.footer-50 -->
 
-                            <div class="footer-50">
-                                <div class="subscribe-form">
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                                        </div><!-- /.col-md-8 -->
-
-                                        <div class="col-md-4">
-                                            <input type="submit" value="Subscribe">
-                                        </div><!-- /.col-md-4 -->
-                                    </div><!-- /.row -->
-                                </div><!-- /.subscribe-form -->
-                            </div><!-- /.footer-50 -->
                         </div><!-- /.ft-wrapper -->
                     </div><!-- /.flat-wrapper -->
                 </div><!-- /.row -->

@@ -197,37 +197,6 @@
         <div id="flat-map"></div>
     </div><!-- /.flat-row -->
 
-    <div class="flat-row pad-top65px pad-bottom80px">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="flat-title-section title-center">Request a quick quote.</h2>
-                    <p class="text-center">Fill out the form to get your quote within the hour. We guaranty safe and timley<br>product delivery either for your personal travel or your products.</p>
-                    <div class="flat-divider d20px"></div>
-                    <form id="contactform" method="post" action="http://themesflat.com/html/canava/contact/contact-process.php">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p><input name="author" type="text" value="" placeholder="Location" required="required"></p>
-
-                                <p><input id="email" name="email" type="email" value="" placeholder="To Destination" required="required"></p>
-
-                                <p><select class="wpcf7-form-control wpcf7-select"><option value="Cargo">Cargo</option><option value="Person">Person</option></select></p>
-
-                                <p><input id="phone" name="phone" type="text" value="" placeholder="Phone Number" required="required"></p>
-                            </div><!-- /.col-md-6 -->
-
-                            <div class="col-md-6">
-                                <p><textarea name="comment" placeholder="Comment" required="required"></textarea></p>
-                                <span class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Get a quote">
-                                    </span>
-                            </div><!-- /.col-md-6 -->
-                        </div><!-- /.row -->
-                    </form>
-                </div><!-- /.col-md-8 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.flat-row -->
-
     <!-- Footer -->
     <footer class="footer">
         <div class="content-bottom-widgets">
@@ -269,19 +238,7 @@
                                 </div><!-- /.row -->
                             </div><!-- /.footer-50 -->
 
-                            <div class="footer-50">
-                                <div class="subscribe-form">
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                                        </div><!-- /.col-md-8 -->
 
-                                        <div class="col-md-4">
-                                            <input type="submit" value="Subscribe">
-                                        </div><!-- /.col-md-4 -->
-                                    </div><!-- /.row -->
-                                </div><!-- /.subscribe-form -->
-                            </div><!-- /.footer-50 -->
                         </div><!-- /.ft-wrapper -->
                     </div><!-- /.flat-wrapper -->
                 </div><!-- /.row -->
