@@ -23,7 +23,7 @@
                     <div class="breadcrumbs">
                         <h2 class="trail-browse"></h2>
                         <ul class="trail-items">
-                            <li class="trail-item"><a href="{{url('#')}}">Home</a></li>
+                            <li class="trail-item"><a href="{{route('index')}}">Home</a></li>
                             <li>News</li>
                         </ul>
                     </div><!-- /.breadcrumbs -->

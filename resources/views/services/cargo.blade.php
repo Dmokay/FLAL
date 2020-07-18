@@ -52,10 +52,10 @@
                     <div class="flat-divider d10px"></div>
 
                     <h3 class="flat-title-section style">Service <span>overview</span></h3>
-                    <div><p>We have developed a network of correspondents in groupage and full loads that allows us to move and store your goods throughout Europe.</p>
-                        <p>Countries like Germany, France, Portugal, United Kingdom, Italy and Benelux have been the first to consolidate in recent years to provide services with Poland, Czech Rep., Russia, Slovenia, Hungary and the Baltic countries; offering daily departures for some of them and weekly departures for others.</p>
-                        <p>Our technical and human teams are prepared for transporting conventional goods as well as ADR classified chemicals and goods requiring temperature control during transport; being able to offer storage solutions for such goods.</p>
-                        <p>We offer outsourcing of logistics services to our clients, from their production chain to delivery to the final destination.</p></div>
+                    <div><p>Our technical and human teams are prepared to receive and handle your cargo with utmost expertise. We are always available to help you with any queries you might have, or if you want to consult in length your logistic requirements. We would study your requirements and provide you with a quote that would not only suit your budget, but would also save you considerable amount of money in the long term. And, we guarantee that.</p>
+                        <p>Our logistics processes, services, tools and systems in combination with strategic warehouse locations help our clients to meet their business logistic needs and achieve their long term business goals with much more accuracy. Moreover, our supply chain management experts would design a logistic process especially for you to align with your business in an integrated fashion. </p>
+                        <p>Whether it is the one time delivery you need done, or whether you are looking for professional and commercial trucking service to offload your ongoing trucking requirements, we can assure you of the best services at the most economical pricing.</p>
+                    </div>
 
                     <div class="flat-divider d50px"></div>
 
@@ -113,12 +113,12 @@
                                 <h4 class="widget-title">Recent news</h4>
                                 <ul>
                                     <li>
-                                        <a href="{{route('clearing')}}">Raising productivity &amp; morale in the warehouse</a>
-                                        <span class="post-date">March 25, 2016</span>
+                                        <a href="{{route('news')}}">New law to axe rogue clearing agents, address cargo delays.</a>
+                                        <span class="post-date">Jan 21, 2020</span>
                                     </li>
                                     <li>
-                                        <a href="{{route('clearing')}}">Seafield logistics goes into administration</a>
-                                        <span class="post-date">March 25, 2016</span>
+                                        <a href="{{route('clearing')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
+                                        <span class="post-date">May 20, 2020</span>
                                     </li>
                                 </ul>
                             </div><!-- /.widget_recent_entries -->
@@ -129,7 +129,7 @@
                                         <h4 class="title">Why choose us?</h4>
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-right"></i> Over 20 years experience</li>
-                                            <li><i class="fa fa-arrow-circle-right"></i>  Well over 100 Trucks</li>
+                                            <li><i class="fa fa-arrow-circle-right"></i>  Well over 15 Trucks</li>
                                             <li><i class="fa fa-arrow-circle-right"></i> Reliable Service</li>
                                             <li><i class="fa fa-arrow-circle-right"></i>  On Time Deliveries</li>
                                             <li><i class="fa fa-arrow-circle-right"></i>  Professional Drivers</li>

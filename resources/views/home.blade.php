@@ -285,17 +285,17 @@
                                             <div class="entry-header">
                                                 <div class="entry-header-content">
                                                     <h4 class="entry-time">
-                                                        <span class="entry-day">25</span>
-                                                        <span class="entry-month">Mar</span>
+                                                        <span class="entry-day">21</span>
+                                                        <span class="entry-month">Jan</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{route('index')}}">Raising productivity &amp; morale in the warehouse</a>
+                                                        <a href="{{route('news')}}">New law to axe rogue clearing agents, address cargo delays.</a>
                                                     </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
                                             <div class="entry-content">
-                                                <p>It’s a well-known fact that happy and motivated workers produce better results. A recent study found that happier workers were 12% ...</p>
+                                                <p>The Kenya International Freight Forwarders Association (KIFWA) and the Federation of East African Freight Forwarders Associations (FEAFFA), in partnership with other relevant industry associations, want the adoption of the Kenya Customs Agents and Freight Forwarders Bill 2020.</p>
                                             </div><!-- /.entry-content -->
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
@@ -324,13 +324,13 @@
                                                         <span class="entry-month">Mar</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{route('index')}}">Seafield logistics goes into administration</a>
+                                                        <a href="{{route('index')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
                                                     </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
                                             <div class="entry-content">
-                                                <p>Seafield Logistics has gone into administration and two of its operational units have been sold. David Riley, Les Ross and Joe ...</p>
+                                                <p>According to Tim White, CEO of Profica, the logistics and warehousing sectors have strong fundamentals in place which may see the industrial sector weather the Covid-19 storm and emerge with a more positive long-term outlook.</p>
                                             </div><!-- /.entry-content -->
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
@@ -355,17 +355,17 @@
                                             <div class="entry-header">
                                                 <div class="entry-header-content">
                                                     <h4 class="entry-time">
-                                                        <span class="entry-day">25</span>
-                                                        <span class="entry-month">Mar</span>
+                                                        <span class="entry-day">9</span>
+                                                        <span class="entry-month">Jun</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{route('index')}}">Transport managers grow scarce</a>
+                                                        <a href="{{route('index')}}">Global air cargo demand plummets</a>
                                                     </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
                                             <div class="entry-content">
-                                                <p>Welcome to the Logistics Job Shop Newsletter; your need-to-know digest and analyse the events of the past fortnight in the roa ...</p>
+                                                <p>Data released by the International Air Transport Association (IATA) for global air freight markets in April showed that demand dropped by 27.7% compared to the same period in 2019 - the sharpest fall ever recorded. There is a severe capacity crunch in air cargo. Demand fell by 27.7% compared to April 2019.</p>
                                             </div><!-- /.entry-content -->
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
@@ -493,54 +493,54 @@
                             <div class="col-md-2">
                                 <div class="clients-image style">
                                     <div class="item-img">
-                                        <img src="{{asset('images/client/c1.png')}}" alt="images">
+                                        <img src="{{asset('images/flags/uganda.jpg')}}" alt="images">
                                     </div>
-                                    <p class="tooltip">Laurentides</p>
+                                    <p class="tooltip">Uganda</p>
                                 </div>
                             </div><!-- /.col-md-2 -->
 
                             <div class="col-md-2">
                                 <div class="clients-image style">
                                     <div class="item-img">
-                                        <img src="{{asset('images/client/c1.png')}}" alt="images">
+                                        <img src="{{asset('images/flags/Tz.jpg')}}" alt="images">
                                     </div>
-                                    <p class="tooltip">Veolia</p>
+                                    <p class="tooltip">Tanzania</p>
                                 </div>
                             </div><!-- /.col-md-2 -->
 
                             <div class="col-md-2">
                                 <div class="clients-image style">
                                     <div class="item-img">
-                                        <img src="{{asset('images/client/c1.png')}}" alt="images">
+                                        <img src="{{asset('images/flags/Zambia.jpg')}}" alt="images">
                                     </div>
-                                    <p class="tooltip">Plane Business</p>
+                                    <p class="tooltip">Zambia</p>
                                 </div>
                             </div><!-- /.col-md-2 -->
 
                             <div class="col-md-2">
                                 <div class="clients-image style">
                                     <div class="item-img">
-                                        <img src="{{asset('images/client/c1.png')}}" alt="images">
+                                        <img src="{{asset('images/flags/malawi.jpg')}}" alt="images">
                                     </div>
-                                    <p class="tooltip">Arrow GLS</p>
+                                    <p class="tooltip">Malawi</p>
                                 </div>
                             </div><!-- /.col-md-2 -->
 
                             <div class="col-md-2">
                                 <div class="clients-image style">
                                     <div class="item-img">
-                                        <img src="{{asset('images/client/c1.png')}}" alt="images">
+                                        <img src="{{asset('images/flags/Burundi.jpg')}}" alt="images">
                                     </div>
-                                    <p class="tooltip">MWR Transport</p>
+                                    <p class="tooltip">Burundi</p>
                                 </div>
                             </div><!-- /.col-md-2 -->
 
                             <div class="col-md-2">
                                 <div class="clients-image style">
                                     <div class="item-img">
-                                        <img src="{{asset('images/client/c1.png')}}" alt="images">
+                                        <img src="{{asset('images/flags/Botswana.jpg')}}" alt="images">
                                     </div>
-                                    <p class="tooltip">Bradbell</p>
+                                    <p class="tooltip">Botswana</p>
                                 </div>
                             </div><!-- /.col-md-2 -->
                         </div><!-- /.row -->

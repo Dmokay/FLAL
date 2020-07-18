@@ -52,10 +52,9 @@
                     <div class="flat-divider d10px"></div>
 
                     <h3 class="flat-title-section style">Service <span>overview</span></h3>
-                    <div><p>We have developed a network of correspondents in groupage and full loads that allows us to move and store your goods throughout Europe.</p>
-                        <p>Countries like Germany, France, Portugal, United Kingdom, Italy and Benelux have been the first to consolidate in recent years to provide services with Poland, Czech Rep., Russia, Slovenia, Hungary and the Baltic countries; offering daily departures for some of them and weekly departures for others.</p>
-                        <p>Our technical and human teams are prepared for transporting conventional goods as well as ADR classified chemicals and goods requiring temperature control during transport; being able to offer storage solutions for such goods.</p>
-                        <p>We offer outsourcing of logistics services to our clients, from their production chain to delivery to the final destination.</p></div>
+                    <div><p>Modern logistics is more than the smooth exchange of goods and information. Smart and sustainable business requires the skills of logistics experts who are able to think ahead. As a professional full-service logistics provider, we live this approach.</p>
+                        <p>From procurement to delivery and from individual shipments to mass distribution, fair logistics develops individual solutions for the entire supply chain. Carefully thought-out, tailor-made logistics solutions and a perfectly synchronised transport network guarantee a decisive competitive head start. Intelligent warehouse logistics ensures optimal stock levels as well as a rapid flow of goods. Targeted outsourcing of business processes increases efficiency. </p>
+                    </div>
 
                     <div class="flat-divider d50px"></div>
 
@@ -113,12 +112,12 @@
                                 <h4 class="widget-title">Recent news</h4>
                                 <ul>
                                     <li>
-                                        <a href="{{route('clearing')}}">Raising productivity &amp; morale in the warehouse</a>
-                                        <span class="post-date">March 25, 2016</span>
+                                        <a href="{{route('news')}}">New law to axe rogue clearing agents, address cargo delays.</a>
+                                        <span class="post-date">Jan 21, 2020</span>
                                     </li>
                                     <li>
-                                        <a href="{{route('clearing')}}">Seafield logistics goes into administration</a>
-                                        <span class="post-date">March 25, 2016</span>
+                                        <a href="{{route('clearing')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
+                                        <span class="post-date">May 20, 2020</span>
                                     </li>
                                 </ul>
                             </div><!-- /.widget_recent_entries -->
