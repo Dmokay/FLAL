@@ -40,10 +40,10 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/services/s1.jpg')}}"><img src="{{asset('images/services/s1.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/portfolio/pv8.jpg')}}"><img src="{{asset('images/portfolio/pv8.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/services/s2.jpg')}}"><img src="{{asset('images/services/s2.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/portfolio/1.4.jpg')}}"><img src="{{asset('images/portfolio/1.4.jpg')}}" alt="images"></a>
                                 </li>
                             </ul>
                         </div>

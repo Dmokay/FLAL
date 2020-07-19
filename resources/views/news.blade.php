@@ -39,12 +39,13 @@
                     <div class="main-content">
                         <div class="main-content-wrap">
                             <div class="content-inner">
+
                                 <article class="blog-post">
                                     <div class="entry-wrapper">
                                         <div class="entry-cover">
-                                            <a href="{{url('blog-single.html')}}">
-                                                <img src="{{asset('images/blog/1.jpg')}}" alt="images">
-                                            </a>
+
+                                                <img src="{{asset('images/news/news.jpg')}}" alt="images">
+
                                         </div><!-- /.entry-cover -->
                                         <h4 class="entry-time">
                                             <span class="entry-month">Jan</span>
@@ -58,11 +59,11 @@
                                                 </h4>
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
-                                                    <span class="entry-author"><a href="{{url('#')}}">admin</a></span>
+                                                    <span class="entry-author">admin</span>
                                                     <i class="fa fa-folder-open"></i>
-                                                    <span class="entry-categories"><a href="{{url('#')}}">Warehouse</a></span>
+                                                    <span class="entry-categories">Warehouse</span>
                                                     <i class="fa fa-comment"></i>
-                                                    <span class="entry-comments-link"><a href="{{url('#')}}">0 Comment</a></span>
+                                                    <span class="entry-comments-link">0 Comment</span>
                                                 </div>
                                             </div><!-- /.entry-header-content -->
                                         </div><!-- /.entry-header -->
@@ -77,9 +78,9 @@
                                 <article class="blog-post">
                                     <div class="entry-wrapper">
                                         <div class="entry-cover">
-                                            <a href="{{url('#')}}">
-                                                <img src="{{asset('images/blog/2.jpg')}}" alt="images">
-                                            </a>
+
+                                                <img src="{{asset('images/cargo/cargo.jpg')}}" alt="images">
+
                                         </div><!-- /.entry-cover -->
                                         <h4 class="entry-time">
                                             <span class="entry-month">May</span>
@@ -93,11 +94,11 @@
                                                 </h4>
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
-                                                    <span class="entry-author"><a href="{{url('#')}}">admin</a></span>
+                                                    <span class="entry-author">admin</span>
                                                     <i class="fa fa-folder-open"></i>
-                                                    <span class="entry-categories"><a href="{{url('#')}}">Jobs</a></span>
+                                                    <span class="entry-categories">Warehouse</span>
                                                     <i class="fa fa-comment"></i>
-                                                    <span class="entry-comments-link"><a href="{{url('#')}}">0 Comment</a></span>
+                                                    <span class="entry-comments-link">0 Comment</span>
                                                 </div>
                                             </div><!-- /.entry-header-content -->
                                         </div><!-- /.entry-header -->
@@ -112,9 +113,9 @@
                                 <article class="blog-post">
                                     <div class="entry-wrapper">
                                         <div class="entry-cover">
-                                            <a href="{{url('#')}}">
-                                                <img src="{{asset('images/blog/3.jpg')}}" alt="images">
-                                            </a>
+
+                                                <img src="{{asset('images/news/plane.jpg')}}" alt="images">
+
                                         </div><!-- /.entry-cover -->
                                         <h4 class="entry-time">
                                             <span class="entry-month">June</span>
@@ -128,11 +129,11 @@
                                                 </h4>
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
-                                                    <span class="entry-author"><a href="{{url('#')}}">admin</a></span>
+                                                    <span class="entry-author">admin</span>
                                                     <i class="fa fa-folder-open"></i>
-                                                    <span class="entry-categories"><a href="{{url('#')}}">Transport</a></span>
+                                                    <span class="entry-categories">Warehouse</span>
                                                     <i class="fa fa-comment"></i>
-                                                    <span class="entry-comments-link"><a href="{{url('#')}}">0 Comment</a></span>
+                                                    <span class="entry-comments-link">0 Comment</span>
                                                 </div>
                                             </div><!-- /.entry-header-content -->
                                         </div><!-- /.entry-header -->
@@ -157,7 +158,7 @@
                                         <div class="content-text">
                                             <h4 class="title">How can we help you?</h4>
                                             <p>Our customer service standards provide information on how we will handle your enquiry. There is also compliments and complaints information to help you when you lodge feedback with us.</p>
-                                            <a class="button white" href="{{route('contact')}}">Contact Us<i class="fa fa-chevron-right"></i></a>
+                                            <a class="button white" href="{{route('contact')}}">Talk to Us<i class="fa fa-chevron-right"></i></a>
                                         </div>
                                     </div><!-- /.textwidget -->
                                 </div><!-- /.widget_text -->
