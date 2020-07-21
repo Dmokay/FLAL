@@ -98,7 +98,7 @@
                             <li><a href="{{route('about')}}">Company</a>
                                 <ul class="submenu">
                                     <li><a href="{{route('about')}}">About Us</a></li>
-                                    <li><a href="{{route('history')}}">Company History</a></li>
+                                    <li><a href="{{url('#')}}">Company History</a></li>
                                     <li><a href="{{route('team')}}">Our People</a></li>
                                 </ul><!-- /.submenu -->
                             </li>
@@ -117,11 +117,7 @@
 
 
                             </li>
-                            <li>
 
-                                <a href="{{route('gallery')}}">Gallery</a>
-
-                            </li>
                             <li>
 
                                 <a href="{{route('news')}}">News</a>
@@ -201,15 +197,15 @@
 
                     <div class="col-md-3">
                         <div class="widget widget_recent_entries">
-                            <h4 class="widget-title">Recent News</h4>
+                            <h4 class="widget-title">Recent news</h4>
                             <ul>
                                 <li>
-                                    <a href="blog-single.html">Raising productivity &amp; morale in the warehouse</a>
-                                    <span class="post-date">May 25, 2020</span>
+                                    <a href="{{route('news')}}">New law to axe rogue clearing agents, address cargo delays.</a>
+                                    <span class="post-date">Jan 21, 2020</span>
                                 </li>
                                 <li>
-                                    <a href="blog-single.html">Seafield logistics goes into administration</a>
-                                    <span class="post-date">May 25, 2020</span>
+                                    <a href="{{route('news')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
+                                    <span class="post-date">May 20, 2020</span>
                                 </li>
                             </ul>
                         </div><!-- /.widget_recent_entries -->
@@ -221,16 +217,10 @@
                             <div class="menu-footer-menu-container">
                                 <ul class="menu-footer-menu">
                                     <li><a href="{{route('index')}}">Home</a></li>
-                                    <li><a href="{{route('index')}}">About us</a></li>
-                                    <li><a href="{{route('index')}}">Services</a></li>
-                                    <li><a href="{{route('index')}}">My Account</a></li>
-                                    <li><a href="{{route('index')}}">Contact us</a></li>
-                                    <li><a href="{{route('index')}}">News</a></li>
-                                    <li><a href="{{route('index')}}">Gallery</a></li>
-                                    <li><a href="{{route('index')}}">Careers</a></li>
-                                    <li><a href="{{route('index')}}">FAQ</a></li>
-                                    <li><a href="{{route('index')}}">Partners</a></li>
-
+                                    <li><a href="{{route('about')}}">About us</a></li>
+                                    <li><a href="{{route('clearing')}}">Services</a></li>
+                                    <li><a href="{{route('contact')}}">Contact us</a></li>
+                                    <li><a href="{{route('news')}}">News</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -262,10 +252,10 @@
                     <div class="flat-wrapper">
                         <div class="ft-wrap clearfix">
                             <div class="social-links">
-                                <a href="{{route('index')}}"><i class="fa fa-twitter"></i></a>
-                                <a href="{{route('index')}}"><i class="fa fa-facebook-official"></i></a>
-                                <a href="{{route('index')}}"><i class="fa fa-google-plus"></i></a>
-                                <a href="{{route('index')}}"><i class="fa fa-pinterest"></i></a>
+                                <a href="{{url('#')}}"><i class="fa fa-twitter"></i></a>
+                                <a href="{{url('#')}}"><i class="fa fa-facebook-official"></i></a>
+                                <a href="{{url('#')}}"><i class="fa fa-google-plus"></i></a>
+                                <a href="{{url('#')}}"><i class="fa fa-pinterest"></i></a>
                             </div>
                             <div class="copyright">
                                 <div class="copyright-content">

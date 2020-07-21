@@ -56,7 +56,7 @@
                         <div class="item-img">
                             <img src="{{asset('images/customers/diamond_industries.jpg')}}" alt="images">
                         </div>
-                        <p class="tooltip">Bradbell</p>
+                        <p class="tooltip">Diamond Industries</p>
                     </div>
                 </div><!-- /.col-md-2 -->
             </div><!-- /.row -->
@@ -112,7 +112,7 @@
                                 <div class="imagebox">
                                     <div class="box-wrapper">
                                         <div class="box-image">
-                                            <img src="{{asset('images/imagebox/3.jpg')}}" alt="images">
+                                            <img src="{{asset('images/services/s8.jpg')}}" alt="images">
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
@@ -161,7 +161,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-truck"></i></div>
-                                        <h5 class="box-title"><a href="{{route('clearing')}}">Over-land Transport</a></h5>
+                                        <h5 class="box-title"><a href="{{route('land')}}">Over-land Transport</a></h5>
                                     </div>
                                     <div class="box-content">
                                         Combined rail road transport is particularly well suited to the shipping of hazardous goods since it reduces risk.
@@ -173,7 +173,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-ship"></i></div>
-                                        <h5 class="box-title"><a href="{{route('clearing')}}">Sea freight</a></h5>
+                                        <h5 class="box-title"><a href="{{route('sea')}}">Sea freight</a></h5>
                                     </div>
                                     <div class="box-content">
                                         By using a combination of sea and land freight, you bring added flexibility to your supply chain.
@@ -192,7 +192,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-cube"></i></div>
-                                        <h5 class="box-title"><a href="{{route('clearing')}}">Warehousing and storage</a></h5>
+                                        <h5 class="box-title"><a href="{{route('warehouse')}}">Warehousing and storage</a></h5>
                                     </div>
                                     <div class="box-content">
                                         Fair Logistics is able to offer heated or unheated warehouse solutions both for short-term and for long-term storage.
@@ -205,7 +205,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-dropbox"></i></div>
-                                        <h5 class="box-title"><a href="{{route('clearing')}}">Cargo</a></h5>
+                                        <h5 class="box-title"><a href="{{route('cargo')}}">Cargo</a></h5>
                                     </div>
                                     <div class="box-content">
                                         Ground transport along with other ancillary services, help us to provide tailor made logistic solutions to our clients.
@@ -217,7 +217,7 @@
                                 <div class="iconbox style1">
                                     <div class="box-header">
                                         <div class="box-icon"><i class="fa fa-globe"></i></div>
-                                        <h5 class="box-title"><a href="{{route('clearing')}}">Logistics Solutions</a></h5>
+                                        <h5 class="box-title"><a href="{{route('logistics')}}">Logistics Solutions</a></h5>
                                     </div>
                                     <div class="box-content">
                                         Smart and sustainable business requires the skills of logistics experts who are able to think ahead.
@@ -239,24 +239,9 @@
                             <h1 class="title">From around the World to<br>around the country.</h1>
                             <h5 class="desc">We will take care of your cargo and deliver it safe and on time.</h5>
                             <div class="group-btn">
-                                <a class="button lg" href="{{url('home-header-transparent.html#')}}">make a quote <i class="fa fa-chevron-right"></i></a>
-                                <a class="button lg outline style1" href="{{route('index')}}">Talk to us <i class="fa fa-chevron-right"></i></a>
+                                <a class="button lg outline style1" href="{{route('contact')}}">Talk to us <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div><!-- /.make-quote -->
-                    </div><!-- /.col-md-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.flat-row -->
-
-        <!-- Promobox -->
-        <div class="flat-row bg-scheme1 pad-top0px pad-bottom0px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="promobox style1 style2 clearfix">
-                            <h5 class="promobox-title">Contact us now to get quote for all your global shipping and cargo need.</h5>
-                            <a class="button black sm" href="{{route('index')}}">Talk to us<i class="fa fa-chevron-right"></i></a>
-                        </div>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -279,7 +264,7 @@
                                         <div class="entry-wrapper">
                                             <div class="entry-cover">
                                                 <a href="{{route('index')}}">
-                                                    <img src="{{asset('images/blog/b1.jpg')}}" alt="images">
+                                                    <img src="{{asset('images/news/news.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover -->
                                             <div class="entry-header">
@@ -314,7 +299,7 @@
                                         <div class="entry-wrapper">
                                             <div class="entry-cover">
                                                 <a href="{{route('index')}}">
-                                                    <img src="{{asset('images/blog/b2.jpg')}}" alt="images">
+                                                    <img src="{{asset('images/cargo/cargo.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover -->
                                             <div class="entry-header">
@@ -349,7 +334,7 @@
                                         <div class="entry-wrapper">
                                             <div class="entry-cover">
                                                 <a href="{{route('index')}}">
-                                                    <img src="{{asset('images/blog/b3.jpg')}}" alt="images">
+                                                    <img src="{{asset('images/news/plane.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover -->
                                             <div class="entry-header">
@@ -487,7 +472,7 @@
                         </div><!-- /.flat-testimonial -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
-                <div class="flat-row bg-scheme pad-top20px pad-bottom20px">
+                <div class=" pad-top20px pad-bottom20px">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-2">

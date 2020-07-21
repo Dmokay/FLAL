@@ -39,13 +39,13 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/about/1.jpg')}}"><img src="{{asset('images/about/1.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/transport/transit.jpg')}}"><img src="{{asset('images/transport/transit.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/about/2.jpg')}}"><img src="{{asset('images/about/2.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/warehouse/wh1.jpg')}}"><img src="{{asset('images/warehouse/wh1.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/about/3.jpg')}}"><img src="{{asset('images/about/3.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/sea/melati2.jpg')}}"><img src="{{asset('images/sea/melati2.jpg')}}" alt="images"></a>
                                 </li>
                             </ul>
                         </div>
@@ -61,7 +61,7 @@
                     <div class="promobox">
                         <h5 class="promobox-title mag-top0px">With utmost care and timely consideration, We will handle your cargo and deliver it safe and on time.</h5>
                         <div class="group-btn">
-                            <a class="button black" href="{{url('#')}}">contact us <i class="fa fa-chevron-right"></i></a>
+                            <a class="button black" href="{{route('contact')}}">Talk to us <i class="fa fa-chevron-right"></i></a>
 
                         </div>
                     </div><!-- /.promobox -->
@@ -89,7 +89,7 @@
                         </div><!-- /.col-md-6 -->
 
                         <div class="col-md-6">
-                            <img src="{{asset('images/img-single/1.jpg')}}" alt="images">
+                            <img src="{{asset('images/cargo/3.jpg')}}" alt="images">
                             <div class="flat-divider d30px"></div>
                             <img src="{{asset('images/img-single/2.jpg')}}" alt="images">
                         </div><!-- /.col-md-6 -->
@@ -105,7 +105,7 @@
                                         <a class="active" href="{{route('about')}}">About us</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('history')}}">Company history</a>
+                                        <a href="{{url('#')}}">Company history</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="{{route('team')}}">our people</a>
@@ -123,7 +123,7 @@
                                     </li>
                                     <li>
                                         <a href="{{route('about')}}">Our Vision</a>
-                                        <span>We are dedicated to providing the customer with the Most satisfying shipping, Clearing and Forwarding experience</span>
+                                        <span>To create a service-based company whose first ambition is to continually exceed the customers' expectations</span>
                                     </li>
 
                                 </ul>
@@ -134,7 +134,7 @@
                                     <div class="content-text">
                                         <h4 class="title">How can we help you?</h4>
                                         <p>Our customer service standards provide information on how we will handle your enquiry. There is also compliments and complaints information to help you when you lodge feedback with us.</p>
-                                        <a class="button white" href="about.html#">Contact Us<i class="fa fa-chevron-right"></i></a>
+                                        <a class="button white" href="{{route('contact')}}">Contact Us<i class="fa fa-chevron-right"></i></a>
                                     </div>
                                 </div><!-- /.textwidget -->
                             </div><!-- /.widget_text -->

@@ -36,21 +36,92 @@
     <div class="container">
         <div class="row">
             <div class="general">
-                <h3 class="flat-title-section style style1">Board of <span>director</span></h3>
+{{--                <h3 class="flat-title-section style style1">Board of <span>director</span></h3>--}}
 
-                <div class="flat-divider d40px"></div>
+{{--                <div class="flat-divider d40px"></div>--}}
+
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-4">--}}
+{{--                        <div class="flat-member">--}}
+{{--                            <div class="member-image">--}}
+{{--                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">--}}
+{{--                            </div>--}}
+{{--                            <div class="member-info">--}}
+{{--                                <h3 class="member-name">John Doe</h3>--}}
+{{--                                <div class="member-subtitle">CEO - Director</div>--}}
+{{--                                <div class="member-desc">--}}
+{{--                                    Having accumulated knowledge &amp; experience in many fields &amp; having a record as a professional, friendly, honest, reliable &amp; diligent…--}}
+{{--                                </div>--}}
+{{--                                <div class="social-links style1">--}}
+{{--                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div><!-- /.flat-member -->--}}
+{{--                    </div><!-- /.col-md-4 -->--}}
+
+{{--                    <div class="col-md-4">--}}
+{{--                        <div class="flat-member">--}}
+{{--                            <div class="member-image">--}}
+{{--                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">--}}
+{{--                            </div>--}}
+{{--                            <div class="member-info">--}}
+{{--                                <h3 class="member-name">David Schenken</h3>--}}
+{{--                                <div class="member-subtitle">Manage</div>--}}
+{{--                                <div class="member-desc">--}}
+{{--                                    I am a highly motivated and professional capable of delivering to the highest level I have first rate organisational skills and the ability…--}}
+{{--                                </div>--}}
+{{--                                <div class="social-links style1">--}}
+{{--                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div><!-- /.flat-member -->--}}
+{{--                    </div><!-- /.col-md-4 -->--}}
+
+{{--                    <div class="col-md-4">--}}
+{{--                        <div class="flat-member">--}}
+{{--                            <div class="member-image">--}}
+{{--                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">--}}
+{{--                            </div>--}}
+{{--                            <div class="member-info">--}}
+{{--                                <h3 class="member-name">Lonnie Radzinsky</h3>--}}
+{{--                                <div class="member-subtitle">Accountant</div>--}}
+{{--                                <div class="member-desc">--}}
+{{--                                    A charismatic individual who is not afraid of trying to achieve something that has seemed to be impossible to many.--}}
+{{--                                </div>--}}
+{{--                                <div class="social-links style1">--}}
+{{--                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>--}}
+{{--                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div><!-- /.flat-member -->--}}
+{{--                    </div><!-- /.col-md-4 -->--}}
+{{--                </div><!-- /.row -->--}}
+
+{{--                <div class="flat-divider d50px"></div>--}}
+
+                <h3 class="flat-title-section style">Meet our <span>staff</span></h3>
+
+                <div class="flat-divider d20px"></div>
 
                 <div class="row">
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="{{asset('images/member/1.jpg')}}" alt="images">
+                                <img src="{{asset('images/team/Rosy.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">John Doe</h3>
-                                <div class="member-subtitle">CEO - Director</div>
+                                <h3 class="member-name">Rosylene Mwita</h3>
+                                <div class="member-subtitle">Team Leader Operations</div>
                                 <div class="member-desc">
-                                    Having accumulated knowledge &amp; experience in many fields &amp; having a record as a professional, friendly, honest, reliable &amp; diligent…
+                                    A dynamic, highly disciplined and proactive Team leader with over 5 years in the logistics industry.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -65,13 +136,13 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="{{asset('images/member/2.jpg')}}" alt="images">
+                                <img src="{{asset('images/team/lawi.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">David Schenken</h3>
-                                <div class="member-subtitle">Manage</div>
+                                <h3 class="member-name">Lawi Awina</h3>
+                                <div class="member-subtitle">Port Clerk</div>
                                 <div class="member-desc">
-                                    I am a highly motivated and professional capable of delivering to the highest level I have first rate organisational skills and the ability…
+                                    Having accumulated knowledge &amp; experience in many fields &amp; having a record of extream professionalism.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -86,13 +157,13 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="{{asset('images/member/3.jpg')}}" alt="images">
+                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">Lonnie Radzinsky</h3>
-                                <div class="member-subtitle">Accountant</div>
+                                <h3 class="member-name">Norah Chepkemoi</h3>
+                                <div class="member-subtitle">Ass. Operations Team Leader</div>
                                 <div class="member-desc">
-                                    A charismatic individual who is not afraid of trying to achieve something that has seemed to be impossible to many.
+                                    I am a highly motivated and professional individual, capable of delivering to the highest level.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -105,23 +176,19 @@
                     </div><!-- /.col-md-4 -->
                 </div><!-- /.row -->
 
-                <div class="flat-divider d50px"></div>
-
-                <h3 class="flat-title-section style">Meet our <span>staff</span></h3>
-
                 <div class="flat-divider d20px"></div>
 
                 <div class="row">
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="{{asset('images/member/4.jpg')}}" alt="images">
+                                <img src="{{asset('images/team/cecilia.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">Edgars Kronbergs</h3>
-                                <div class="member-subtitle">Staff</div>
+                                <h3 class="member-name">Cecilia Muasya</h3>
+                                <div class="member-subtitle">Declaration Clerk</div>
                                 <div class="member-desc">
-                                    A dynamic, highly disciplined and proactive Transport planner with over 10 years in both the military and private road haulage/tranport…
+                                    A charismatic individual who is not afraid of trying to achieve something that has seemed to be impossible to many.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -136,13 +203,13 @@
                     <div class="col-md-4">
                         <div class="flat-member">
                             <div class="member-image">
-                                <img src="{{asset('images/member/5.jpg')}}" alt="images">
+                                <img src="{{asset('images/team/mukoya.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">Ryan Edwards</h3>
-                                <div class="member-subtitle">Staff</div>
+                                <h3 class="member-name">Liverson Mukoya</h3>
+                                <div class="member-subtitle">Port Clerk</div>
                                 <div class="member-desc">
-                                    Having accumulated knowledge &amp; experience in many fields &amp; having a record as a professional, friendly, honest, reliable &amp; diligent…
+                                   He will go over and above to ensure deadlines are met and quality work is done, putting a smile on every customer.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -154,26 +221,6 @@
                         </div><!-- /.flat-member -->
                     </div><!-- /.col-md-4 -->
 
-                    <div class="col-md-4">
-                        <div class="flat-member">
-                            <div class="member-image">
-                                <img src="{{asset('images/member/6.jpg')}}" alt="images">
-                            </div>
-                            <div class="member-info">
-                                <h3 class="member-name">Andrew Souter</h3>
-                                <div class="member-subtitle">Staff</div>
-                                <div class="member-desc">
-                                    I am a highly motivated and professional capable of delivering to the highest level I have first rate organisational skills and the ability…
-                                </div>
-                                <div class="social-links style1">
-                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- /.flat-member -->
-                    </div><!-- /.col-md-4 -->
                 </div><!-- /.row -->
 
             </div><!-- /.general -->
@@ -187,7 +234,7 @@
                                     <a href="{{route('about')}}">About us</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="{{route('history')}}">Company history</a>
+                                    <a href="{{url('#')}}">Company history</a>
                                 </li>
                                 <li class="menu-item">
                                     <a class="active" href="{{route('team')}}">our people</a>
@@ -197,19 +244,16 @@
                         </div><!-- /.widget_nav_menu -->
 
                         <div class="widget widget_recent_entries">
-                            <h4 class="widget-title">Company news</h4>
+                            <h4 class="widget-title">Values which Guide Us</h4>
                             <ul>
                                 <li>
-                                    <a href="blog-single.html">Raising productivity &amp; morale in the warehouse</a>
-                                    <span class="post-date">March 25, 2016</span>
+                                    <span class="post-date">Passion</span>
                                 </li>
                                 <li>
-                                    <a href="blog-single.html">Seafield logistics goes into administration</a>
-                                    <span class="post-date">March 25, 2016</span>
+                                    <span class="post-date">Integrity</span>
                                 </li>
                                 <li>
-                                    <a href="blog-single.html">Transport managers grow scarce</a>
-                                    <span class="post-date">March 25, 2016</span>
+                                    <span class="post-date">Commitment</span>
                                 </li>
                             </ul>
                         </div><!-- /.widget_recent_entries -->
@@ -219,7 +263,7 @@
                                 <div class="content-text">
                                     <h4 class="title">How can we help you?</h4>
                                     <p>Our customer service standards provide information on how we will handle your enquiry. There is also compliments and complaints information to help you when you lodge feedback with us.</p>
-                                    <a class="button white" href="our-people.html#">Contact Us<i class="fa fa-chevron-right"></i></a>
+                                    <a class="button white" href="{{route('contact')}}">Talk to Us<i class="fa fa-chevron-right"></i></a>
                                 </div>
                             </div><!-- /.textwidget -->
                         </div><!-- /.widget_text -->
