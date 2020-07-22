@@ -391,7 +391,7 @@
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
                                     <div class="testimonial-author">
-                                        <strong class="author-name">Yvonne Mulisa</strong>
+                                        <strong class="author-name">Dr.Mulisa Yvonne</strong>
                                         <div class="author-info"></div>
                                     </div>
                                 </div>
@@ -414,7 +414,7 @@
                                 </div>
                                 <div class="testimonial-content">
                                     <blockquote>
-                                        Thank you for delivering the chairs to us so quickly. Your delivery guys were most helpful and courteous. You have been a pleasure to deal with and we will not hesitate to use your services again or recommend you.
+                                        Thank you for delivering the food stuff to us so quickly. Your delivery guys were most helpful and courteous. You have been a pleasure to deal with and we will not hesitate to use your services again or recommend you.
                                     </blockquote>
                                 </div>
                             </div><!-- /.testimonial -->
@@ -425,7 +425,7 @@
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
                                     <div class="testimonial-author">
-                                        <strong class="author-name">Hon Evans Makamu</strong>
+                                        <strong class="author-name">Eng. Evans Makamu</strong>
                                         <div class="author-info"></div>
                                     </div>
                                 </div>
@@ -442,13 +442,13 @@
                                         <img src="{{asset('images/testimonials/star.png')}}" alt="images">
                                     </div>
                                     <div class="testimonial-author">
-                                        <strong class="author-name">Ken Muchiri</strong>
+                                        <strong class="author-name">Hon.Ken Muchiri</strong>
                                         <div class="author-info"></div>
                                     </div>
                                 </div>
                                 <div class="testimonial-content">
                                     <blockquote>
-                                        We are very happy with service. The dispatchers are professional and responsive. There are no obstacles, and Lance has been a good problem solver for us, like when we had a tough time finding containers for overseas deliveries.
+                                        We are not so happy with service. The dispatchers are quiet slow and we did not like it. Although fair logistics has been a good problem solver for us, there are abit of obstacles like unavailability of customer service when we had a tough time finding containers for overseas deliveries.
                                     </blockquote>
                                 </div>
                             </div><!-- /.testimonial -->

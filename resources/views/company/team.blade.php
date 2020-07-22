@@ -36,76 +36,55 @@
     <div class="container">
         <div class="row">
             <div class="general">
-{{--                <h3 class="flat-title-section style style1">Board of <span>director</span></h3>--}}
+                <h3 class="flat-title-section style style1">Board of <span>director</span></h3>
 
-{{--                <div class="flat-divider d40px"></div>--}}
+                <div class="flat-divider d40px"></div>
 
-{{--                <div class="row">--}}
-{{--                    <div class="col-md-4">--}}
-{{--                        <div class="flat-member">--}}
-{{--                            <div class="member-image">--}}
-{{--                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">--}}
-{{--                            </div>--}}
-{{--                            <div class="member-info">--}}
-{{--                                <h3 class="member-name">John Doe</h3>--}}
-{{--                                <div class="member-subtitle">CEO - Director</div>--}}
-{{--                                <div class="member-desc">--}}
-{{--                                    Having accumulated knowledge &amp; experience in many fields &amp; having a record as a professional, friendly, honest, reliable &amp; diligent…--}}
-{{--                                </div>--}}
-{{--                                <div class="social-links style1">--}}
-{{--                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div><!-- /.flat-member -->--}}
-{{--                    </div><!-- /.col-md-4 -->--}}
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="flat-member">
+                            <div class="member-image">
+                                <img src="{{asset('images/team/charles.jpeg')}}" alt="images">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Charles Otieno Ongoya</h3>
+                                <div class="member-subtitle">Director</div>
+                                <div class="member-desc">
+                                    He is greatly dedicated in propelling the company to greater heights. His enthusiasm is quite infectious.
+                                </div>
+                                <div class="social-links style1">
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- /.flat-member -->
+                    </div><!-- /.col-md-4 -->
 
-{{--                    <div class="col-md-4">--}}
-{{--                        <div class="flat-member">--}}
-{{--                            <div class="member-image">--}}
-{{--                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">--}}
-{{--                            </div>--}}
-{{--                            <div class="member-info">--}}
-{{--                                <h3 class="member-name">David Schenken</h3>--}}
-{{--                                <div class="member-subtitle">Manage</div>--}}
-{{--                                <div class="member-desc">--}}
-{{--                                    I am a highly motivated and professional capable of delivering to the highest level I have first rate organisational skills and the ability…--}}
-{{--                                </div>--}}
-{{--                                <div class="social-links style1">--}}
-{{--                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div><!-- /.flat-member -->--}}
-{{--                    </div><!-- /.col-md-4 -->--}}
+                    <div class="col-md-4">
+                        <div class="flat-member">
+                            <div class="member-image">
+                                <img src="{{asset('images/team/rozalia.jpeg')}}" alt="images">
+                            </div>
+                            <div class="member-info">
+                                <h3 class="member-name">Rozalia Akoth</h3>
+                                <div class="member-subtitle">Director</div>
+                                <div class="member-desc">
+                                    A go getter. She will do everything in her capacity to ensure targets are met by the team. She offers leadership that is second to none.
+                                </div>
+                                <div class="social-links style1">
+                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- /.flat-member -->
+                    </div><!-- /.col-md-4 -->
+                </div><!-- /.row -->
 
-{{--                    <div class="col-md-4">--}}
-{{--                        <div class="flat-member">--}}
-{{--                            <div class="member-image">--}}
-{{--                                <img src="{{asset('images/team/Norah.jpg')}}" alt="images">--}}
-{{--                            </div>--}}
-{{--                            <div class="member-info">--}}
-{{--                                <h3 class="member-name">Lonnie Radzinsky</h3>--}}
-{{--                                <div class="member-subtitle">Accountant</div>--}}
-{{--                                <div class="member-desc">--}}
-{{--                                    A charismatic individual who is not afraid of trying to achieve something that has seemed to be impossible to many.--}}
-{{--                                </div>--}}
-{{--                                <div class="social-links style1">--}}
-{{--                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>--}}
-{{--                                    <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div><!-- /.flat-member -->--}}
-{{--                    </div><!-- /.col-md-4 -->--}}
-{{--                </div><!-- /.row -->--}}
-
-{{--                <div class="flat-divider d50px"></div>--}}
+                <div class="flat-divider d50px"></div>
 
                 <h3 class="flat-title-section style">Meet our <span>staff</span></h3>
 
