@@ -101,7 +101,7 @@
                                         <li><a href="{{route('about')}}">Company</a>
                                             <ul class="submenu">
                                                 <li><a href="{{route('about')}}">About Us</a></li>
-                                                <li><a href="{{url('#')}}">Company History</a></li>
+                                               {{-- <li><a href="{{url('#')}}">Company History</a></li>--}}
                                                 <li><a href="{{route('team')}}">Our People</a></li>
                                             </ul><!-- /.submenu -->
                                         </li>
