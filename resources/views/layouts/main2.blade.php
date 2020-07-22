@@ -34,6 +34,17 @@
 
     <link rel="stylesheet" type="text/css" href="{{url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
 
+    <style>
+        .overlay {
+            background-color: maroon;
+        }
+        .general-sidebars .widget.widget_nav_menu ul li a.active:before {
+            background-color: maroon;
+        }
+        .general-sidebars .widget.widget_nav_menu ul li a::before:hover {
+            background-color: maroon;
+        }
+    </style>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -98,7 +109,7 @@
                             <li><a href="{{route('about')}}">Company</a>
                                 <ul class="submenu">
                                     <li><a href="{{route('about')}}">About Us</a></li>
-                                    <li><a href="{{url('#')}}">Company History</a></li>
+                                    {{--<li><a href="{{url('#')}}">Company History</a></li>--}}
                                     <li><a href="{{route('team')}}">Our People</a></li>
                                 </ul><!-- /.submenu -->
                             </li>

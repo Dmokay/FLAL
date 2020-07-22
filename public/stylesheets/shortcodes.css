@@ -97,7 +97,7 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-color: #ffc952;
+    background-color: maroon;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
        filter: alpha(opacity=100);
       opacity: 1;
@@ -234,7 +234,7 @@
 }
 
 .button.bg-scheme3 {
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .button.bg-scheme3:hover {
@@ -314,7 +314,7 @@
 
 .counter .counter-image i {
     font-size: 28px;
-    color: #ffc952;
+    color: maroon;
 }
 
 .counter .numb-count {
@@ -552,7 +552,7 @@
     margin: 0 20px 0 0;
     float: left;
     width: 50px;
-    background-color: #ffc952;
+    background-color: maroon;
     text-align: center;
     font-size: 16px;
     color: #fff;
@@ -703,11 +703,11 @@
 }
 
 .general-sidebars .widget.widget_nav_menu ul li a.active:before {
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .general-sidebars .widget.widget_nav_menu ul li a:hover:before {
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .general-sidebars .widget.widget_nav_menu ul li a:after {
@@ -799,7 +799,7 @@
 
 .history li:last-child .year:after,
 .history li:last-child .year {
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .history li:last-child:after {
@@ -842,7 +842,7 @@
 .promobox {
     margin: 20px 0 60px 0;
     padding: 30px 35px;
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .promobox .promobox-title {
@@ -1423,7 +1423,7 @@ ul.flat-list li {
 
 .flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:hover,
 .flat-portfolio.portfolio-masonry .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:hover {
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .flat-portfolio.portfolio-grid-alt .portfolio-item .portfolio-wrap .portfolio-thumbnail .project-buttons a:after,
@@ -1664,7 +1664,7 @@ ul.flat-list li {
 }
 
 .flat-portfolio.portfolio-grid .portfolio-wrap .portfolio-thumbnail:hover .project-buttons a:hover {
-    background-color: #ffc952;
+    background-color: maroon;
 }
 
 .flat-portfolio.portfolio-grid .portfolio-wrap .portfolio-info {
@@ -2002,7 +2002,7 @@ label.error {
 }
 
 .iconbox.style1:hover .box-header .box-icon i:after {
-    background-color: #ffc952;
+    background-color: maroon;
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
@@ -2131,7 +2131,7 @@ label.error {
     display: block;
     margin: 0 0 15px 0;
     font-weight: bold;
-    color: #ffc952;
+    color: maroon;
 }
 
 .woocommerce .products li .product-info .product-info-wrap .button {
@@ -2179,7 +2179,7 @@ label.error {
 }
 
 .products-detail .summary p.price .amount {
-    color: #ffc952;
+    color: maroon;
     display: inline-block;
 }
 

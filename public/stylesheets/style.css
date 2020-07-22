@@ -500,7 +500,7 @@ a.scheme:hover {
 }
 
 .bg-scheme1 {
-	background-color: #ffc952;
+	background-color: maroon;
 }
 
 /* Flat top
@@ -523,7 +523,7 @@ a.scheme:hover {
   	width: 24px;
   	height: 24px;
   	color: #fff;
-  	background-color: #ffc952;
+  	background-color: maroon;
   	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   	text-align: center;
   	line-height: 24px;
@@ -1474,7 +1474,7 @@ a.scheme:hover {
 
 .shopping-cart .shopping-cart-items-count {
 	position: absolute;
-    background-color: #ffc952;
+    background-color: maroon;
     width: 16px;
     height: 16px;
     font-family: "Poppins", sans-serif;
@@ -1664,7 +1664,7 @@ a.scheme:hover {
 
 .breadcrumbs:before {
     content: "\e096";
-    color: #ffc952;
+    color: maroon;
     font-family: "simple-line-icons";
     font-size: 24px;
     display: inline-block;
@@ -2215,7 +2215,7 @@ blockquote {
 }
 
 .blog-single .blog-post .entry-footer .entry-tags a:hover {
-	background-color: #ffc952;
+	background-color: maroon;
 }
 
 .blog-single .navigation {
@@ -2358,7 +2358,7 @@ blockquote {
 .content-bottom-widgets .subscribe-form input[type="submit"] {
     width: 100%;
     text-align: center;
-    background-color: #ffc952;
+    background-color: maroon;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -2452,7 +2452,7 @@ blockquote {
 }
 
 .footer-content .social-links a:hover {
-	background-color: #ffc952;
+	background-color: maroon;
 }
 
 .footer-content .social-links a i {
@@ -2819,7 +2819,7 @@ blockquote {
     height: 0;
     border-bottom: 21px solid transparent;
     border-top: 21px solid transparent;
-    border-left: 21px solid #ffc952;
+    border-left: 21px solid maroon;
     transform: rotate(45deg);
 }
 

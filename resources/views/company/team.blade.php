@@ -212,9 +212,9 @@
                                 <li class="menu-item">
                                     <a href="{{route('about')}}">About us</a>
                                 </li>
-                                <li class="menu-item">
+                                {{--<li class="menu-item">
                                     <a href="{{url('#')}}">Company history</a>
-                                </li>
+                                </li>--}}
                                 <li class="menu-item">
                                     <a class="active" href="{{route('team')}}">our people</a>
                                 </li>

@@ -262,7 +262,7 @@
                                 <div class="content-inner clearfix">
                                     <article class="flat-item item-three-column blog-post">
                                         <div class="entry-wrapper">
-                                            <div class="entry-cover">
+                                            <div class="entry-cover" style="height: 187px; overflow: hidden">
                                                 <a href="{{route('index')}}">
                                                     <img src="{{asset('images/news/news.jpg')}}" alt="images">
                                                 </a>
@@ -297,7 +297,7 @@
 
                                     <article class="flat-item item-three-column blog-post">
                                         <div class="entry-wrapper">
-                                            <div class="entry-cover">
+                                            <div class="entry-cover" style="height: 187px; overflow: hidden">
                                                 <a href="{{route('index')}}">
                                                     <img src="{{asset('images/cargo/cargo.jpg')}}" alt="images">
                                                 </a>
@@ -332,7 +332,7 @@
 
                                     <article class="flat-item item-three-column blog-post">
                                         <div class="entry-wrapper">
-                                            <div class="entry-cover">
+                                            <div class="entry-cover" style="height: 187px; overflow: hidden">
                                                 <a href="{{route('index')}}">
                                                     <img src="{{asset('images/news/plane.jpg')}}" alt="images">
                                                 </a>
