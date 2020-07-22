@@ -41,7 +41,7 @@
                 <div class="flat-divider d40px"></div>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="flat-member">
                             <div class="member-image">
                                 <img src="{{asset('images/team/charles.jpeg')}}" alt="images">
@@ -62,7 +62,7 @@
                         </div><!-- /.flat-member -->
                     </div><!-- /.col-md-4 -->
 
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="flat-member">
                             <div class="member-image">
                                 <img src="{{asset('images/team/rozalia.jpeg')}}" alt="images">
@@ -158,7 +158,7 @@
                 <div class="flat-divider d20px"></div>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="flat-member">
                             <div class="member-image">
                                 <img src="{{asset('images/team/cecilia.jpg')}}" alt="images">
@@ -179,7 +179,7 @@
                         </div><!-- /.flat-member -->
                     </div><!-- /.col-md-4 -->
 
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="flat-member">
                             <div class="member-image">
                                 <img src="{{asset('images/team/mukoya.jpg')}}" alt="images">
