@@ -36,7 +36,7 @@
     <div class="container">
         <div class="row">
             <div class="general">
-                <h3 class="flat-title-section style style1">Board of <span>director</span></h3>
+                <h3 class="flat-title-section style style1">Board of <span>directors</span></h3>
 
                 <div class="flat-divider d40px"></div>
 
@@ -50,7 +50,7 @@
                                 <h3 class="member-name">Charles Otieno Ongoya</h3>
                                 <div class="member-subtitle">Director</div>
                                 <div class="member-desc">
-                                    He is greatly dedicated in propelling the company to greater heights. His enthusiasm is quite infectious.
+                                    He is greatly dedicated in propelling the company to greater heights. His enthusiasm is quite infectious. A rare kind of leader,
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -188,7 +188,7 @@
                                 <h3 class="member-name">Liverson Mukoya</h3>
                                 <div class="member-subtitle">Port Clerk</div>
                                 <div class="member-desc">
-                                   He will go over and above to ensure deadlines are met and quality work is done, putting a smile on every customer.
+                                   He will go over and above to ensure deadlines are met and quality work is done, putting a smile on every customer. You will love his work no doubt.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>

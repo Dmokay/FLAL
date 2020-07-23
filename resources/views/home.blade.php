@@ -309,7 +309,7 @@
                                                         <span class="entry-month">Mar</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{route('index')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
+                                                        <a href="{{route('news')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
                                                     </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
@@ -344,7 +344,7 @@
                                                         <span class="entry-month">Jun</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{route('index')}}">Global air cargo demand plummets</a>
+                                                        <a href="{{route('news')}}">Global air cargo demand plummets</a>
                                                     </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->

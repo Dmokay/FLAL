@@ -59,7 +59,7 @@
                     <p>Our experience in all the fields we serve in, and the range of services we provide, makes us one of the most comprehensive logistic service providers in the nation. And, with the help of continuous support and trust of our clients, we aim to stay at the top of the game, and humbly so. Our sophisticated systems, neatly designed logistic process, state of the art logistic tools and equipment, most advanced carriers, custom tailored services, and dedication to keep the costs low for end users, help us to provide logistic solution that aligns well with our clients’ requirements. We welcome you to our site, and request you to consult with our logistic experts for your logistic needs, and rest assured of getting done.</p>
                     <p>We have years of experience in the business of logistics, warehousing, distribution, trucking and supply chain management services, and aim to provide our clients with convenience, reliability and affordability through our premium logistic services.</p>
                     <div class="promobox">
-                        <h5 class="promobox-title mag-top0px">With utmost care and timely consideration, We will handle your cargo and deliver it safe and on time.</h5>
+                        <h5 class="promobox-title mag-top0px" style="color: white">With utmost care and timely consideration, We will handle your cargo and deliver it safe and on time.</h5>
                         <div class="group-btn">
                             <a class="button black" href="{{route('contact')}}">Talk to us <i class="fa fa-chevron-right"></i></a>
 
