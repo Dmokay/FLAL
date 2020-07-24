@@ -112,7 +112,7 @@
                                 <div class="imagebox">
                                     <div class="box-wrapper">
                                         <div class="box-image">
-                                            <img src="{{asset('images/services/s8.jpg')}}" alt="images">
+                                            <img src="{{asset('images/services/sgr2.jpg')}}" alt="images">
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
