@@ -40,10 +40,10 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/cargo/cargo1.jpg')}}"><img src="{{asset('images/cargo/cargo1.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/services/s6.jpg')}}"><img src="{{asset('images/services/s6.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/cargo/cargo2.jpg')}}"><img src="{{asset('images/cargo/cargo2.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/services/airline.jpg')}}"><img src="{{asset('images/services/airline.jpg')}}" alt="images"></a>
                                 </li>
                             </ul>
                         </div>
@@ -52,9 +52,10 @@
                     <div class="flat-divider d10px"></div>
 
                     <h3 class="flat-title-section style">Service <span>overview</span></h3>
-                    <div><p>Our technical and human teams are prepared to receive and handle your cargo with utmost expertise. We are always available to help you with any queries you might have, or if you want to consult in length your logistic requirements. We would study your requirements and provide you with a quote that would not only suit your budget, but would also save you considerable amount of money in the long term. And, we guarantee that.</p>
-                        <p>Our logistics processes, services, tools and systems in combination with strategic warehouse locations help our clients to meet their business logistic needs and achieve their long term business goals with much more accuracy. Moreover, our supply chain management experts would design a logistic process especially for you to align with your business in an integrated fashion. </p>
-                        <p>Whether it is the one time delivery you need done, or whether you are looking for professional and commercial trucking service to offload your ongoing trucking requirements, we can assure you of the best services at the most economical pricing.</p>
+                    <div>
+                        <p>We are partnered with renowed air travel and ferry providers to give you world class air freight experience. We will ferry your cargo and get it to its destination around the world in minimal time.</p>
+                        <p>With numerous flight capacity we are able to handles any amount of cargo from our clients.</p>
+                        <p></p>
                     </div>
 
                     <div class="flat-divider d50px"></div>
