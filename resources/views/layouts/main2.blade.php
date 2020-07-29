@@ -89,7 +89,7 @@
             <div class="header-wrap">
                 <div  class="logo">
                     <a href="{{route('index')}}">
-                        <img src="{{asset('images/logo3.png')}}" alt="Logo">
+                        <img src="{{asset('images/logo3.png')}}" style="height: 75px;max-width: none" alt="Logo">
                     </a>
                 </div><!-- /.logo -->
                 <div class="btn-menu">
@@ -121,6 +121,8 @@
                                     <li><a href="{{route('clearing')}}">Clearing & Forwarding</a></li>
                                     <li><a href="{{route('land')}}">Over-land Transport</a></li>
                                     <li><a href="{{route('sea')}}">Sea freight</a></li>
+                                    <li><a href="{{route('air')}}">Air freight</a></li>
+                                    <li><a href="{{route('board')}}">Board Station</a></li>
                                     <li><a href="{{route('warehouse')}}">Warehousing and storage</a></li>
                                     <li><a href="{{route('cargo')}}">Cargo</a></li>
                                     <li><a href="{{route('logistics')}}">Logistics Solutions</a></li>

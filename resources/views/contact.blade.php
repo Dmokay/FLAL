@@ -35,15 +35,14 @@
     <div class="flat-row">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h5 class="mag-top0px">Headquarters</h5>
                     <p>
-                        <strong>Amal Plaza, Mombasa</strong><br>
+                        <strong>Amal Plaza, Mombasa, 2nd floor</strong><br>
                         Mamba Round About<br>
-                        Tel: +254 722 353 372<br>
                         Tel: +254 729 414 008<br>
                         Email: <a class="scheme" href="{{url('#')}}">info@fairlogistics.net</a><br>
-                        Email: <a class="scheme" href="{{url('#')}}">fairlogisticsagency@gmail.com</a>
+                        Email: <a class="scheme" href="{{url('#')}}">fairlogisticsagency2011@gmail.com</a>
                     </p>
                 </div><!-- /.col-md-3 -->
 

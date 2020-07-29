@@ -27,6 +27,10 @@ Route::get('/cargo', 'HomeController@cargo')->name('cargo');
 
 Route::get('/land', 'HomeController@land')->name('land');
 
+Route::get('/air', 'HomeController@air')->name('air');
+
+Route::get('/board', 'HomeController@board')->name('board');
+
 Route::get('/sea', 'HomeController@sea')->name('sea');
 
 Route::get('/warehouse', 'HomeController@warehouse')->name('warehouse');

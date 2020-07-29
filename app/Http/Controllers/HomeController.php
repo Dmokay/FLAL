@@ -40,6 +40,14 @@ class HomeController extends Controller
     {
         return view('services.land');
     }
+    public function air()
+    {
+        return view('services.air');
+    }
+    public function board()
+    {
+        return view('services.board');
+    }
     public function sea()
     {
         return view('services.sea');

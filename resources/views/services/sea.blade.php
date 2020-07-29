@@ -98,6 +98,12 @@
                                         <a class="active" href="{{route('sea')}}">Sea freight</a>
                                     </li>
                                     <li class="menu-item">
+                                        <a href="{{route('air')}}">Air freight</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="{{route('board')}}">Board Station</a>
+                                    </li>
+                                    <li class="menu-item">
                                         <a href="{{route('warehouse')}}">Warehousing and storage</a>
                                     </li>
                                     <li class="menu-item">

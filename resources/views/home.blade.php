@@ -27,7 +27,7 @@
                 <div class="col-md-2">
                     <div class="clients-image style">
                         <div class="item-img">
-                            <img src="{{asset('images/customers/pacific_international.jpg')}}" alt="images">
+                            <img src="{{asset('images/client/pil.png')}}" style="height: 111.84px;width: 178px"  alt="images">
                         </div>
                         <p class="tooltip">Pacific International Ltd</p>
                     </div>
@@ -54,9 +54,9 @@
                 <div class="col-md-2">
                     <div class="clients-image style">
                         <div class="item-img">
-                            <img src="{{asset('images/customers/diamond_industries.jpg')}}" alt="images">
+                            <img src="{{asset('images/client/ldc1.png')}}" style="height: 111.84px" alt="images">
                         </div>
-                        <p class="tooltip">Diamond Industries</p>
+                        <p class="tooltip">Louis Dreyfus Company</p>
                     </div>
                 </div><!-- /.col-md-2 -->
             </div><!-- /.row -->
@@ -74,7 +74,7 @@
                                 <div class="imagebox">
                                     <div class="box-wrapper">
                                         <div class="box-image">
-                                            <img src="{{asset('images/imagebox/1.jpg')}}" alt="images">
+                                            <img src="{{asset('images/trucks/truck2.png')}}" style="height: 260.22px;width: auto alt="images">
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
@@ -112,7 +112,7 @@
                                 <div class="imagebox">
                                     <div class="box-wrapper">
                                         <div class="box-image">
-                                            <img src="{{asset('images/services/sgr2.jpg')}}" alt="images">
+                                            <img src="{{asset('images/client/sgr2.jpeg')}}" style="height: 260.22px;width: auto" alt="images">
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">

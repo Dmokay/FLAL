@@ -79,9 +79,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="flat-wrapper">
-                            <div  class="logo">
+                            <div  class="logo" style="margin: 0px">
                                 <a href="{{route('index')}}">
-                                    <img src="{{asset('images/logo3.png')}}" alt="Logo">
+                                    <img src="{{asset('images/logo3.png')}}" style="height: 100px;max-width: none" alt="Logo">
                                 </a>
                             </div><!-- /.logo -->
                             <div class="btn-menu">
@@ -113,6 +113,8 @@
                                                 <li><a href="{{route('clearing')}}">Clearing & Forwarding</a></li>
                                                 <li><a href="{{route('land')}}">Over-land Transport</a></li>
                                                 <li><a href="{{route('sea')}}">Sea freight</a></li>
+                                                <li><a href="{{route('air')}}">Air freight</a></li>
+                                                <li><a href="{{route('board')}}">Board Station</a></li>
                                                 <li><a href="{{route('warehouse')}}">Warehousing and storage</a></li>
                                                 <li><a href="{{route('cargo')}}">Cargo</a></li>
                                                 <li><a href="{{route('logistics')}}">Logistics Solutions</a></li>
@@ -157,7 +159,7 @@
                 </li>
 
                 <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                    <img src="{{asset('images/slides/slide2.jpg')}}" alt="slider-image" />
+                    <img src="{{asset('images/slides/slide2.png')}}" alt="slider-image" />
                     <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                         Overland<br>Transportion
                     </div>

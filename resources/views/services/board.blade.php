@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-title-heading">
-                        <h2>Logistic Solutions</h2>
+                        <h2>Board Station</h2>
                     </div><!-- /.page-title-heading -->
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
@@ -40,10 +40,10 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/portfolio/pv8.jpg')}}"><img src="{{asset('images/portfolio/pv8.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/cargo/cargo1.jpg')}}"><img src="{{asset('images/cargo/cargo1.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/portfolio/1.4.jpg')}}"><img src="{{asset('images/portfolio/1.4.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/cargo/cargo2.jpg')}}"><img src="{{asset('images/cargo/cargo2.jpg')}}" alt="images"></a>
                                 </li>
                             </ul>
                         </div>
@@ -52,8 +52,9 @@
                     <div class="flat-divider d10px"></div>
 
                     <h3 class="flat-title-section style">Service <span>overview</span></h3>
-                    <div><p>Modern logistics is more than the smooth exchange of goods and information. Smart and sustainable business requires the skills of logistics experts who are able to think ahead. As a professional full-service logistics provider, we live this approach.</p>
-                        <p>From procurement to delivery and from individual shipments to mass distribution, fair logistics develops individual solutions for the entire supply chain. Carefully thought-out, tailor-made logistics solutions and a perfectly synchronised transport network guarantee a decisive competitive head start. Intelligent warehouse logistics ensures optimal stock levels as well as a rapid flow of goods. Targeted outsourcing of business processes increases efficiency. </p>
+                    <div><p>Our technical and human teams are prepared to receive and handle your cargo with utmost expertise. We are always available to help you with any queries you might have, or if you want to consult in length your logistic requirements. We would study your requirements and provide you with a quote that would not only suit your budget, but would also save you considerable amount of money in the long term. And, we guarantee that.</p>
+                        <p>Our logistics processes, services, tools and systems in combination with strategic warehouse locations help our clients to meet their business logistic needs and achieve their long term business goals with much more accuracy. Moreover, our supply chain management experts would design a logistic process especially for you to align with your business in an integrated fashion. </p>
+                        <p>Whether it is the one time delivery you need done, or whether you are looking for professional and commercial trucking service to offload your ongoing trucking requirements, we can assure you of the best services at the most economical pricing.</p>
                     </div>
 
                     <div class="flat-divider d50px"></div>
@@ -100,7 +101,7 @@
                                         <a href="{{route('air')}}">Air freight</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('board')}}">Board Station</a>
+                                        <a class="active" href="{{route('board')}}">Board Station</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="{{route('warehouse')}}">Warehousing and storage</a>
@@ -109,7 +110,7 @@
                                         <a href="{{route('cargo')}}">Cargo</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a class="active" href="{{route('logistics')}}">Logistics Solutions</a>
+                                        <a href="{{route('logistics')}}">Logistics Solutions</a>
                                     </li>
                                 </ul>
                             </div><!-- /.widget_nav_menu -->
@@ -134,7 +135,7 @@
                                         <h4 class="title">Why choose us?</h4>
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-right"></i> Over 20 years experience</li>
-                                            <li><i class="fa fa-arrow-circle-right"></i>  Well over 100 Trucks</li>
+                                            <li><i class="fa fa-arrow-circle-right"></i>  Well over 15 Trucks</li>
                                             <li><i class="fa fa-arrow-circle-right"></i> Reliable Service</li>
                                             <li><i class="fa fa-arrow-circle-right"></i>  On Time Deliveries</li>
                                             <li><i class="fa fa-arrow-circle-right"></i>  Professional Drivers</li>
