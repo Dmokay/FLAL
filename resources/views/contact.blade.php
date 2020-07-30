@@ -40,6 +40,7 @@
                     <p>
                         <strong>Amal Plaza, Mombasa, 2nd floor</strong><br>
                         Mamba Round About<br>
+                        Tel: 0110002322 <br>
                         Tel: +254 729 414 008<br>
                         Email: <a class="scheme" href="{{url('#')}}">info@fairlogistics.net</a><br>
                         Email: <a class="scheme" href="{{url('#')}}">fairlogisticsagency2011@gmail.com</a>

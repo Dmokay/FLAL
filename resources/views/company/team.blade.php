@@ -72,7 +72,7 @@
                                 <div class="member-subtitle">Director</div>
                                 <div class="member-desc">
                                     A go getter. She will do everything in her capacity to ensure targets are met by the team. She offers leadership that is second to none.<br>
-                                    She has over 10 years experience in clearing and forwarding.She manages the company supplies chain effectively over 10years
+                                    She has over 10 years experience in clearing and forwarding.She has managed the company supplies chain effectively over the 10years
                                     <br>
                                     <br>
                                     <br>

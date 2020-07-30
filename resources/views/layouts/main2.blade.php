@@ -243,14 +243,14 @@
                         <div class="widget widget_text information">
                             <h3 class="widget-title">Contact Us</h3>
                             <div class="textwidget">
-                                <p><strong>P.o Box 2802-80100, Mombasa, Amal Plaza, Mamba Round About</strong></p>
+                                <p><strong>P.o Box 2802-80100, Mombasa, <br>Amal Plaza, 2nd floor <br>Mamba Round About</strong></p>
                                 <p>
-                                    <i class="fa fa-phone"></i>0722 353 372<br>
+                                    <i class="fa fa-phone"></i>0110002322<br>
                                     <i class="fa fa-envelope"></i>info@fairlogistics.net
                                 </p>
                                 <p>
                                     <i class="fa fa-phone"></i>0729 414 008<br>
-                                    <i class="fa fa-envelope"></i>fairlogisticsagency@gmail.com
+                                    <i class="fa fa-envelope"></i>fairlogisticsagency2011@gmail.com
                                 </p>
                             </div>
                         </div>

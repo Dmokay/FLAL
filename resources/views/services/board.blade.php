@@ -53,7 +53,7 @@
 
                     <h3 class="flat-title-section style">Service <span>overview</span></h3>
                     <div>
-                        <p>We are well established to handle our clients' cargo across boards of East and Central African countries. We have great relationship across and are well known to process passes across borders in record time</p>
+                        <p>We are well established to handle our clients' cargo across boarders of East and Central African countries. We have great relationship across and are well known to process passes across borders in record time</p>
                     </div>
 
                     <div class="flat-divider d50px"></div>
