@@ -79,18 +79,18 @@
                                     <div class="entry-wrapper">
                                         <div class="entry-cover">
 
-                                                <img src="{{asset('images/cargo/cargo.jpg')}}" alt="images">
+                                                <img src="{{asset('images/news/port.jpg')}}" alt="images">
 
                                         </div><!-- /.entry-cover -->
                                         <h4 class="entry-time">
-                                            <span class="entry-month">May</span>
-                                            <span class="entry-day">20</span>
+                                            <span class="entry-month">July</span>
+                                            <span class="entry-day">29</span>
                                         </h4>
 
                                         <div class="entry-header">
                                             <div class="entry-header-content">
                                                 <h4 class="entry-title">
-                                                    <a href="{{url('#')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
+                                                    <a href="{{url('#')}}">Mombasa port rethinks strategy as Dar eyes bigger market share</a>
                                                 </h4>
                                                 <div class="entry-meta">
                                                     <i class="fa fa-user"></i>
@@ -104,8 +104,9 @@
                                         </div><!-- /.entry-header -->
 
                                         <div class="entry-content">
-                                            <p>According to Tim White, CEO of Profica, the logistics and warehousing sectors have strong fundamentals in place which may see the industrial sector weather the Covid-19 storm and emerge with a more positive long-term outlook.</p>
-                                            <P>Prior to the pandemic, the demand for quality industrial and logistics space was estimated at over 15 million square metres in Africa’s highest-potential markets. “Providers have struggled to keep up with demand in the logistics and warehousing market, which has been driven by growing e-commerce activity, increasing intra-regional trade and urbanisation,” says White.</P>
+                                            <p>The Mombasa port has been compelled to change tack as competition from Dar es Salaam counterpart gets stiffer. The two ports have in the past two months introduced a number of products and promotional tariffs as they seek to have an edge in maintaining existing traders while attracting new businesses.</p>
+                                            <P>Recently The Tanzania Ports Authority (TPA) waived 100 per cent port storage charges, targeting Rwandan and Democratic Republic of Congo (DRC) cargo. This was meant to counter the Kenya Ports Authority (KPA), which had earlier extended the container free periods for transit traffic at the Mombasa port.</P>
+                                            <p>The Kenya Maritime Authority on July 1 extended the container free periods for transit traffic at the Port of Mombasa and along the Northern Corridor for as long as the Covid-19 pandemic challenges persist. Rwanda business community says they will always pick the port that provides convenience and lower costs.</p>
                                         </div><!-- /.entry-content -->
                                     </div><!-- /.entry-wrapper -->
                                 </article><!-- /.blog-post -->

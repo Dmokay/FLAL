@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div id="flat-map"></div>
+                    <div id="map"></div>
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -76,7 +76,8 @@
                         <li><i class="fa fa-clock-o"></i> <strong>Wednesday:</strong> 08:00 a.m – 06:00 p.m</li>
                         <li><i class="fa fa-clock-o"></i> <strong>Thursday:</strong> 08:00 a.m – 06:00 p.m</li>
                         <li><i class="fa fa-clock-o"></i> <strong>Friday:</strong> 08:00 a.m – 06:00 p.m</li>
-                        <li><i class="fa fa-clock-o"></i> <strong>Saturday – Sunday:</strong> Closed</li>
+                        <li><i class="fa fa-clock-o"></i> <strong>Saturday:</strong> 08:00 a.m – 01.30 p.m</li>
+                        <li><i class="fa fa-clock-o"></i> <strong>Sunday & Public Holidays:</strong> Closed</li>
                     </ul>
 
                     <div class="flat-divider d20px"></div>

@@ -292,7 +292,7 @@
                     }
                 },
                 getlatlng:{
-                    address:  "66 Nicholson St Buffalo New York US",
+                    address:  "Amal Plaza, Mombasa",
                     callback: function(results) {
                         if ( !results ) return;
                         $(this).gmap3('get').setCenter(new google.maps.LatLng(results[0].geometry.location.lat(), results[0].geometry.location.lng()));
@@ -652,7 +652,7 @@
 
         flatSearch();
         onepage_nav();
-        googleMap();
+       // googleMap();
         goTop();
         swClick();
         popupGallery();

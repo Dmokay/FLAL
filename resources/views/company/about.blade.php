@@ -39,7 +39,7 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <a class="popup-gallery" href="{{asset('images/transport/transit.jpg')}}"><img src="{{asset('images/transport/transit.jpg')}}" alt="images"></a>
+                                    <a class="popup-gallery" href="{{asset('images/blurd/transit.jpg')}}"><img src="{{asset('images/blurd/transit.jpg')}}" alt="images"></a>
                                 </li>
                                 <li>
                                     <a class="popup-gallery" href="{{asset('images/warehouse/wh1.jpg')}}"><img src="{{asset('images/warehouse/wh1.jpg')}}" alt="images"></a>

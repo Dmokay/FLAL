@@ -102,7 +102,7 @@
                                         <a class="active" href="{{route('air')}}">Air freight</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="{{route('board')}}">Board Station</a>
+                                        <a href="{{route('board')}}">Boarder Station</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="{{route('warehouse')}}">Warehousing and storage</a>
@@ -124,8 +124,8 @@
                                         <span class="post-date">Jan 21, 2020</span>
                                     </li>
                                     <li>
-                                        <a href="{{route('clearing')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
-                                        <span class="post-date">May 20, 2020</span>
+                                        <a href="{{route('news')}}">Global air cargo demand plummets</a>
+                                        <span class="post-date">June 9, 2020</span>
                                     </li>
                                 </ul>
                             </div><!-- /.widget_recent_entries -->

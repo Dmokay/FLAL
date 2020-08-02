@@ -280,6 +280,7 @@
                                             </div><!-- /.entry-header -->
 
                                             <div class="entry-content">
+                                                <br>
                                                 <p>The Kenya International Freight Forwarders Association (KIFWA) and the Federation of East African Freight Forwarders Associations (FEAFFA), in partnership with other relevant industry associations, want the adoption of the Kenya Customs Agents and Freight Forwarders Bill 2020.</p>
                                             </div><!-- /.entry-content -->
                                             <div class="entry-footer">
@@ -299,23 +300,23 @@
                                         <div class="entry-wrapper">
                                             <div class="entry-cover" style="height: 187px; overflow: hidden">
                                                 <a href="{{route('index')}}">
-                                                    <img src="{{asset('images/cargo/cargo.jpg')}}" alt="images">
+                                                    <img src="{{asset('images/news/port.jpg')}}" alt="images">
                                                 </a>
                                             </div><!-- /.entry-cover -->
                                             <div class="entry-header">
                                                 <div class="entry-header-content">
                                                     <h4 class="entry-time">
-                                                        <span class="entry-day">25</span>
-                                                        <span class="entry-month">Mar</span>
+                                                        <span class="entry-day">29</span>
+                                                        <span class="entry-month">July</span>
                                                     </h4>
                                                     <h4 class="entry-title">
-                                                        <a href="{{route('news')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
+                                                        <a href="{{route('news')}}">Mombasa port rethinks strategy as Dar eyes bigger market share</a>
                                                     </h4>
                                                 </div><!-- /.entry-header-content -->
                                             </div><!-- /.entry-header -->
 
                                             <div class="entry-content">
-                                                <p>According to Tim White, CEO of Profica, the logistics and warehousing sectors have strong fundamentals in place which may see the industrial sector weather the Covid-19 storm and emerge with a more positive long-term outlook.</p>
+                                                <p>The Mombasa port has been compelled to change tack as competition from Dar es Salaam counterpart gets stiffer. The two ports have in the past two months introduced a number of products and promotional tariffs as they seek to have an edge in maintaining existing traders while attracting new businesses.</p>
                                             </div><!-- /.entry-content -->
                                             <div class="entry-footer">
                                                 <div class="entry-meta">
@@ -350,6 +351,7 @@
                                             </div><!-- /.entry-header -->
 
                                             <div class="entry-content">
+                                                <br>
                                                 <p>Data released by the International Air Transport Association (IATA) for global air freight markets in April showed that demand dropped by 27.7% compared to the same period in 2019 - the sharpest fall ever recorded. There is a severe capacity crunch in air cargo. Demand fell by 27.7% compared to April 2019.</p>
                                             </div><!-- /.entry-content -->
                                             <div class="entry-footer">
@@ -531,7 +533,18 @@
                         </div><!-- /.row -->
                     </div><!-- /.container -->
                 </div><!-- /.flat-row -->
+
             </div><!-- /.container -->
         </div><!-- /.flat-row -->
+
+    <div class="flat-row pad-top0px pad-bottom30px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="map"></div>
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.flat-row -->
 
         @endsection

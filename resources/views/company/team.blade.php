@@ -48,7 +48,7 @@
                             </div>
                             <div class="member-info">
                                 <h3 class="member-name">Charles Otieno Ongoya</h3>
-                                <div class="member-subtitle">Director</div>
+                                <div class="member-subtitle">Managing Director</div>
                                 <div class="member-desc">
                                     I have over 30years experience in clearing and forwarding.After attaining a Diploma in clearing and forwarding, I worked with General cargo services ltd for 13 years . I also worked with Pwani Oil Products limited for 8 years.<br> I was trained at Kenya Revenue Authority for certificate course for 6 months and graduated in the year 2008.I was trained in customer care at sheer logistics Limited.
                                 </div>
@@ -68,7 +68,7 @@
                                 <img src="{{asset('images/team/rozalia.jpeg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">Rozalia Akoth Otieno</h3>
+                                <h3 class="member-name">Rozalia Otieno</h3>
                                 <div class="member-subtitle">Director</div>
                                 <div class="member-desc">
                                     A go getter. She will do everything in her capacity to ensure targets are met by the team. She offers leadership that is second to none.<br>
@@ -101,11 +101,11 @@
                                 <img src="{{asset('images/team/Rosy.jpg')}}" alt="images">
                             </div>
                             <div class="member-info">
-                                <h3 class="member-name">Rosylene Mwita</h3>
+                                <h3 class="member-name">Rosalyne Mwita</h3>
                                 <div class="member-subtitle">Team Leader Operations</div>
                                 <div class="member-desc">
-                                    A dynamic, highly disciplined and proactive Team leader with over 5 years in the logistics industry.<br>
-                                    She has over 15 years in the logistics industry
+                                    A dynamic, highly disciplined and proactive Team leader with over 15 years in the logistics industry.<br>
+                                    She brings out the best in her team's work performance.
                                 </div>
                                 <div class="social-links style1">
                                     <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>

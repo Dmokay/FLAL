@@ -34,6 +34,14 @@
 
     <link rel="stylesheet" type="text/css" href="{{url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
 
+    <style>
+        #map {
+            width: 100%;
+            height: 400px;
+            background-color: grey;
+        }
+    </style>
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -114,7 +122,7 @@
                                                 <li><a href="{{route('land')}}">Over-land Transport</a></li>
                                                 <li><a href="{{route('sea')}}">Sea freight</a></li>
                                                 <li><a href="{{route('air')}}">Air freight</a></li>
-                                                <li><a href="{{route('board')}}">Board Station</a></li>
+                                                <li><a href="{{route('board')}}">Boarder Station</a></li>
                                                 <li><a href="{{route('warehouse')}}">Warehousing and storage</a></li>
                                                 <li><a href="{{route('cargo')}}">Cargo</a></li>
                                                 <li><a href="{{route('logistics')}}">Logistics Solutions</a></li>
@@ -172,7 +180,7 @@
                 </li>
 
                 <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                    <img src="{{asset('images/slides/truck.jpg')}}" alt="slider-image" />
+                    <img src="{{asset('images/blurd/truck.jpg')}}" alt="slider-image" />
                     <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                         Clearing and<br>Forwarding
                     </div>
@@ -262,8 +270,8 @@
                                     <span class="post-date">Jan 21, 2020</span>
                                 </li>
                                 <li>
-                                    <a href="{{route('news')}}">African logistics, warehousing sector set to overcome pandemic storm</a>
-                                    <span class="post-date">May 20, 2020</span>
+                                    <a href="{{route('news')}}">Global air cargo demand plummets</a>
+                                    <span class="post-date">June 9, 2020</span>
                                 </li>
                             </ul>
                         </div><!-- /.widget_recent_entries -->
@@ -347,7 +355,19 @@
 <script type="text/javascript" src="{{asset('javascript/jquery-validate.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/parallax.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/main.js')}}"></script>
-
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -4.042784, lng: 39.701954};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 15, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+</script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0e9X8v08jPqQrVOuO1dltQegOEANIjDc&callback=initMap"></script>
 <!-- Revolution Slider -->
 <script type="text/javascript" src="{{asset('javascript/jquery.themepunch.tools.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('javascript/jquery.themepunch.revolution.min.js')}}"></script>
