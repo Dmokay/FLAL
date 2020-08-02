@@ -91,7 +91,7 @@
             <div class="header-wrap">
                 <div  class="logo">
                     <a href="{{route('index')}}">
-                        <img src="{{asset('images/logo3.png')}}" style="height: 75px;max-width: auto" alt="Logo">
+                        <img src="{{asset('images/logo3.png')}}" style="height: 75px;max-width: none;width: auto" alt="Logo">
                     </a>
                 </div><!-- /.logo -->
                 <div class="btn-menu">

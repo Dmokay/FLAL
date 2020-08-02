@@ -84,7 +84,7 @@
                         <div class="flat-wrapper">
                             <div  class="logo" style="margin: 0px">
                                 <a href="{{route('index')}}">
-                                    <img src="{{asset('images/logo3.png')}}" style="height: 100px;max-width: auto" alt="Logo">
+                                    <img src="{{asset('images/logo3.png')}}" style="height: 100px;max-width: none;width: auto" alt="Logo">
                                 </a>
                             </div><!-- /.logo -->
                             <div class="btn-menu">
