@@ -64,18 +64,13 @@
                         <img src="{{asset('images/Tanzania.png')}}" style="height: 15px;width: auto;">| |
                         <img src="{{asset('images/ethopia.jpg')}}" style="height: 15px;width: auto;">
                         <div class="social-links">
-                            <a href="{{route('index')}}">
+                            <a href="{{url('https://twitter.com/fair_logistics')}}">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="{{route('index')}}">
+                            <a href="{{url('https://www.facebook.com/Fair-Logistics-582534859086659/?modal=admin_todo_tour')}}">
                                 <i class="fa fa-facebook-official"></i>
                             </a>
-                            <a href="{{route('index')}}">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                            <a href="{{route('index')}}">
-                                <i class="fa fa-pinterest"></i>
-                            </a>
+
                         </div>
                     </div><!-- /.flat-wrapper -->
                 </div><!-- /.row -->
@@ -89,7 +84,7 @@
                         <div class="flat-wrapper">
                             <div  class="logo" style="margin: 0px">
                                 <a href="{{route('index')}}">
-                                    <img src="{{asset('images/logo3.png')}}" style="height: 100px;max-width: none" alt="Logo">
+                                    <img src="{{asset('images/logo3.png')}}" style="height: 100px;max-width: auto" alt="Logo">
                                 </a>
                             </div><!-- /.logo -->
                             <div class="btn-menu">

@@ -53,8 +53,8 @@
                                     I have over 30years experience in clearing and forwarding.After attaining a Diploma in clearing and forwarding, I worked with General cargo services ltd for 13 years . I also worked with Pwani Oil Products limited for 8 years.<br> I was trained at Kenya Revenue Authority for certificate course for 6 months and graduated in the year 2008.I was trained in customer care at sheer logistics Limited.
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('https://www.facebook.com/Fair-Logistics-582534859086659/?modal=admin_todo_tour')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('https://twitter.com/fair_logistics')}}" class="twitter"><i class="fa fa-twitter"></i></a>
                                     <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
                                     <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
@@ -78,8 +78,8 @@
                                     <br>
                                 </div>
                                 <div class="social-links style1">
-                                    <a href="{{url('#')}}" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="{{url('#')}}" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{url('https://www.facebook.com/Fair-Logistics-582534859086659/?modal=admin_todo_tour')}}" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{url('https://twitter.com/fair_logistics')}}" class="twitter"><i class="fa fa-twitter"></i></a>
                                     <a href="{{url('#')}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
                                     <a href="{{url('#')}}" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 </div>
