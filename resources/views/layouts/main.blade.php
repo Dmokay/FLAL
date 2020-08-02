@@ -162,7 +162,7 @@
                 </li>
 
                 <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                    <img src="{{asset('images/slides/slide2.png')}}" alt="slider-image" />
+                    <img src="{{asset('images/blurd/slide2.jpg')}}" alt="slider-image" />
                     <div class="tp-caption sfl title-slide center" data-x="40" data-y="100" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                         Overland<br>Transportion
                     </div>
